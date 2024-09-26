@@ -21,3 +21,9 @@ vi computation.cpp
  c++ exceptiontest.cpp computation.o -o program 
  ./program 
 
+
+//////////////////////////// Use This //////////////////////////////////
+
+ c++ Exception.cpp compute.cpp -o my_program
+ 
+ ./my_program
