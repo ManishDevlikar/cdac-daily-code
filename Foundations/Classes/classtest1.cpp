@@ -11,7 +11,7 @@ int main()
 	scanf("%f%f", &w, &h);
 
 	Banner c;
-	c.Resize(w, h);
+	c.Resize(w, h); //Banner::Resize(&c, w, h)
 	printf("Price of custom banner: %.2f\n", c.Price());
 }
 

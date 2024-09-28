@@ -12,15 +12,21 @@ public:
 		height = 5.0;
 	}
 
+	//void Banner::Resize(Banner* this, float w, float h)
 	void Resize(float w, float h)
 	{
-		width = w;
-		height = h;
+		width = w; //this[0].width = w;
+		height = h; //this[0].height = h;
 	}	
-
+	
+	//a pointer declared with const qualifier cannot be used
+	//to modify the value addressed by by that pointer
+	//double Banner::Price(const Banner* this)
 	double Price() const
 	{
-		float rate = width > height ? 0.80 : 0.95;
+		//float rate = this[0].width * this[0].height >= 100 ? 0.80 : 0.95;
+		float rate = width * height >= 100 ? 0.80 : 0.95;
+		//return this[0].width * this[0].height * rate;
 		return width * height * rate;
 	}
 
