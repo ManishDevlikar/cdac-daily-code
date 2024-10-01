@@ -50,6 +50,13 @@ int main(){
             printf("----------------");
         }
 
+
+        Employee* ana = new Employee(101,"ana",2500,40);
+        ana->displayEmployee();
+
+        printf("End : \n");
+
+        delete ana;
         delete[] empArray;
 
         return 0;
