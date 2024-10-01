@@ -1,0 +1,36 @@
+      *** UBUNTU install process ***
+			shared by - Nishant
+					
+
+************step 1************
+
+download and install wsl
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+*************step2**************
+click> on windows search then 
+type > turn windows Features on or of
+check the box {windows subsystem for Linux } mark tick
+
+restart system 
+
+************step3****************
+
+ go to ms store 
+install ubuntu latest version OR ubuntu 22.04.3 LTS
+
+
+************step 4*******************
+enter new user name and password
+eg user : cdac
+   password : cdac
+
+**************step 5*****************
+run commands once all process are done 
+
+sudo apt update 
+sudo apt upgrade
+sudo apt install vim
+sudo apt install gcc
+sudo apt install python3
+sudo apt install build-essential
