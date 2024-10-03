@@ -34,20 +34,15 @@ int main(void)
 	cout << "Count: ";
 	cin >> n;
 
-	double da = 23.4, db = 14.9;
-	cout << "Selected double value = "
-		 << Select<double>(n, da, db) //calling templated Select with T=double
-		 << endl;
+	//calling templated Select with T=double
+	double sd = Select<double>(n, 23.4, 14.9);
+	cout << "Selected double value = " << sd << endl;
 
-	string sa = "Tuesday", sb = "Thursday";
-	cout << "Selected string value = "
-		 << Select(n, sa, sb) //Select<string>(n, sa, sb)
-		 << endl;
+	//type inference from arguments
+	string ss = Select(n, "Tuesday", "Thursday"); //Select<string>(n, sa, sb)
+	cout << "Selected string value = " << ss << endl;
 	
-	Interval ia(3, 45), ib(3, 65);
-	cout << "Selected Interval value = "
-		 << Select(n, ia, ib).AsString()
-		 << endl;
-	//Select(n, sa, ia);
+	Interval si = Select(n, Interval(3, 45), Interval(3, 65));
+	cout << "Selected Interval value = " << si.AsString() << endl;
 }
 
