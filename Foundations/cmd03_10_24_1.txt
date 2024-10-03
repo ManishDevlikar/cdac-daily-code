@@ -1,0 +1,38 @@
+  335  cd Foundations/Inheritance/
+  336  ls
+  337  cp adttest.cpp virtbasetest.cpp
+  338  vi virtbasetest.cpp 
+  339  c++ virtbasetest.cpp boards.o -o program
+  340  vi virtbasetest.cpp 
+  341  vi boards.h
+  342  c++ -c boards.cpp 
+  343  c++ virtbasetest.cpp boards.o -o program
+  344  ./program
+  345  c++ -c boards.cpp 
+  346  vi virtbasetest.cpp 
+  347  vi boards.h
+  348  cd ..
+  349  mkdir Templates
+  350  cd Templates/
+  351  vi functmplttest.cpp
+  352  c++ functmplttest.cpp -o program
+  353  ./program 
+  354  vi functmplttest.cpp
+  355  c++ functmplttest.cpp -o program
+  356  vi functmplttest.cpp
+  357  c++ functmplttest.cpp -o program
+  358  ./program 
+  359  vi functmplttest.cpp
+  360  cp ../Classes/interval1.h interval.h
+  361  vi interval.h 
+  362  vi functmplttest.cpp
+  363  c++ functmplttest.cpp -o program
+  364  vi functmplttest.cpp
+  365  c++ functmplttest.cpp -o program
+  366  vi functmplttest.cpp
+  367  c++ functmplttest.cpp -o program
+  368  ./program 
+  369  vi functmplttest.cpp
+  370  c++ functmplttest.cpp -o program
+  371  vi functmplttest.cpp
+  374  history > ../cmd03_10_24_1.txt
