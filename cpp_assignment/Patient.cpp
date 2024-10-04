@@ -1,96 +1,113 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
+
+enum class BedType {
+    ECONOMY = 200,
+    PRIVATE = 350,
+    VIP = 500
+};
 
 using namespace std;
 
-enum BedType {
-    VIP = 500,
-    GENERAL = 250,
-    SEMI_PRIVATE = 350,
-    PRIVATE = 450,
-    ICU = 700,
-    DELUXE = 600
-};
-
 class Patient {
 private:
-    static int patientId;
-    int id;     
-    string name;
-    int age;
+    static int patientIdCounter;
+    int patientId; 
+    string patientName;
     BedType bedType;
     int noOfDays;
 
 public:
     // Constructor
-    Patient(string pname, int page, BedType pbedType, int pnoOfDays)
-        : name(pname), age(page), noOfDays(pnoOfDays) {
-            id=++patientId;  // Increment static patientId for each new patient
-        bedType=pbedType;
+    Patient(const string& name, BedType bed, int noOfDays) 
+        : patientName(name), bedType(bed), noOfDays(noOfDays) {
+        patientId = ++patientIdCounter; 
     }
 
-    // Method to calculate bill amount
-  virtual double getBillAmount() {
-        double price = 0;
+    int getPatientId() const {
+        return patientId; 
+    }
+
+  virtual double getBillAmount() const {
+        double price;
         switch (bedType) {
-        case VIP:
-            price = 500;
-            break;
-        case GENERAL:
-            price = 250;
-            break;
-        case SEMI_PRIVATE:
-            price = 350;
-            break;
-        case PRIVATE:
-            price = 450;
-            break;
-        case ICU:
-            price = 700;
-            break;
-        case DELUXE:
-            price = 600;
-            break;
-        default:
-            price = 250;
-            break;
+            case BedType::VIP:
+                price = 500;
+                break;
+            case BedType::PRIVATE:
+                price = 350;
+                break;
+            case BedType::ECONOMY:
+                price = 200;
+                break;
+            default:
+                price = 0;
         }
-        return price * noOfDays;
-    }
-
-    // Method to display patient details and bill amount
-    void display() {
-        cout << "Patient ID: " << patientId << endl;
-        cout << "Name: " << name << endl;
-        cout << "Age: " << age << endl;
-        cout << "Number of Days: " << noOfDays << endl;
-        cout << "Total Bill Amount: " << getBillAmount() << endl;
+        return noOfDays * price; 
     }
 };
 
-// Initialize static variable
-int Patient::patientId = 100;
 
+int Patient::patientIdCounter = 0;
 
-class inHouse : public Patient{
+class InHousePatient : public Patient {
+private:
     double discount;
-    public:
-    inHouse(string name, int age, BedType bedType, int noOfDays, double discount)
-    : Patient(name, age, bedType, noOfDays), discount(discount) {}
-    double getBillAmount() override {
-        return Patient::getBillAmount() - (Patient::getBillAmount() * discount / 100);
+
+public:
+    // Constructor
+    InHousePatient(const string& name, BedType bed, int noOfDays, double discount)
+        : Patient(name, bed, noOfDays), discount(discount) {}
+
+    double getDiscount() const {
+        return discount;
+    }
+
+    void setDiscount(double discount) {
+        this->discount = discount;
+    }
+
+    double getBillAmount() const {
+        double totalAmount = Patient::getBillAmount();
+
+        
+        if (totalAmount > 5000) {
+           totalAmount *= (1 - (discount / 100.0));
+        }
+        return totalAmount;
     }
 };
+
+
+void printAllDetails( Patient* a[],int size){
+      for(int i=0;i<size;i++){
+		InHousePatient* inHouse = dynamic_cast<InHousePatient*>(a[i]);
+	if(inHouse != nullptr){
+          	cout << "InHousePatient ID: " << inHouse->getPatientId() << ", Bill Amount with Discount: $" << inHouse->getBillAmount() << endl;
+	}else{
+	  cout << "Patient ID: " << a[i]->getPatientId() << ", Bill Amount: $" << a[i]->getBillAmount() << endl;
+	}
+      }
+}
 
 int main() {
-    // Create a Patient object
-    Patient p1("Ana", 28, VIP, 3);
-    // Create an in-house patient object
-    inHouse p2("John", 35, GENERAL, 2, 10);
 
-    // Display patient details and bill amount
-    p1.display();
-    p2.display();
+	Patient* arr[3];
+
+	arr[0]= new Patient("Ana", BedType::VIP, 15);
+	arr[1]= new Patient("Bob", BedType::VIP, 13);
+   	arr[2]= new InHousePatient("John", BedType::VIP, 15,5);
+
+	for(int i=0;i<3;i++){
+	// cout << "Patient ID: " << arr[i]->getPatientId() << ", Bill Amount: $" << arr[i]->getBillAmount() << endl;		
+	}
+
+	printAllDetails(arr,3);
+    //cout << "Patient ID: " << p.getPatientId() << ", Bill Amount: $" << p.getBillAmount() << endl;
+
+    //InHousePatient ihp("John", BedType::VIP, 15, 10);
+    //cout << "Patient ID: " << ihp.getPatientId() << ", Bill Amount after discount: $" << ihp.getBillAmount() << endl;
 
     return 0;
 }
+
