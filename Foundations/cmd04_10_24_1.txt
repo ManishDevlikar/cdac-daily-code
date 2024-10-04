@@ -1,0 +1,59 @@
+  382  cd Templates/
+  383  ls
+  384  vi gencontainertest.cpp
+  385  c++ gencontainertest.cpp -o program 
+  386  vi gencontainertest.cpp
+  387  c++ gencontainertest.cpp -o program 
+  388  ./program 
+  389  vi gencontainertest.cpp
+  390  c++ gencontainertest.cpp -o program 
+  391  ./program 
+  392  vi gencontainertest.cpp
+  393  c++ gencontainertest.cpp -o program 
+  394  ./program 
+  395  vi gencontainertest.cpp
+  396  c++ gencontainertest.cpp -o program 
+  397  vi gencontainertest.cpp
+  398  c++ gencontainertest.cpp -o program 
+  399  ./program 
+  400  vi gencontainertest.cpp
+  401  c++ gencontainertest.cpp -o program 
+  402  ./program 
+  403  vi gencontainertest.cpp
+  404  cp gencontainertest.cpp genalgorithmtest.cpp
+  405  vi genalgorithmtest.cpp 
+  406  c++ genalgorithmtest.cpp -o program
+  407  ./program 
+  408  vi genalgorithmtest.cpp 
+  409  c++ genalgorithmtest.cpp -o program
+  410  ./program 
+  411  vi genalgorithmtest.cpp 
+  412  c++ genalgorithmtest.cpp -o program
+  413  ./program 
+  414  vi genalgorithmtest.cpp 
+  415  c++ genalgorithmtest.cpp -o program
+  416  ./program 
+  417  vi genalgorithmtest.cpp 
+  418  c++ genalgorithmtest.cpp -o program
+  419  ./program 
+  420  ./program 8
+  421  vi genalgorithmtest.cpp 
+  422  c++ genalgorithmtest.cpp -o program
+  423  ./program 8
+  424  vi genalgorithmtest.cpp 
+  425  vi rangestest.cpp
+  426  c++ rangestest.cpp 
+  427  c++ -std::c++20 rangestest.cpp 
+  428  c++ -std=c++20 rangestest.cpp 
+  429  c++ -std=c++2a rangestest.cpp 
+  430  c++ --version
+  431  uname 
+  432  uname -a
+  433  c++ --version
+  434  vi rangestest.cpp 
+  435  notepad.exe rangestest.cpp 
+  436  ssh unipro@linuxarm.km-hussain.xyz
+  437  exit
+  438  cd Foundations/Templates/
+  439  vi rangestest.cpp 
+  440  history > ../cmd04_10_24_1.txt 

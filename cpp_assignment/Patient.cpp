@@ -30,7 +30,7 @@ public:
     }
 
     // Method to calculate bill amount
-    double getBillAmount() {
+  virtual double getBillAmount() {
         double price = 0;
         switch (bedType) {
         case VIP:
@@ -71,10 +71,23 @@ public:
 // Initialize static variable
 int Patient::patientId = 100;
 
+
+class inHouse : public Patient{
+    double discount;
+    public:
+    inHouse(string name, int age, BedType bedType, int noOfDays, double discount)
+    : Patient(name, age, bedType, noOfDays), discount(discount) {}
+    double getBillAmount() override {
+        return Patient::getBillAmount() - (Patient::getBillAmount() * discount / 100);
+    }
+};
+
 int main() {
     // Create a Patient object
     Patient p1("Ana", 28, VIP, 3);
-    Patient p2("Ana", 28, VIP, 3);
+    // Create an in-house patient object
+    inHouse p2("John", 35, GENERAL, 2, 10);
+
     // Display patient details and bill amount
     p1.display();
     p2.display();

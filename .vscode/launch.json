@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/cpp_assignment",
-      "program": "c:/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/cpp_assignment/build/Debug/outDebug",
+      "cwd": "d:/ClassCode/cpp_assignment",
+      "program": "d:/ClassCode/cpp_assignment/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

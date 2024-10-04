@@ -1,0 +1,67 @@
+    1  pwd
+    2  cd Foundations/Templates/
+    3  vi functmplttest.cpp 
+    4  c++ functmplttest.cpp -o program
+    5  ./program 
+    6  vi functmplttest.cpp 
+    7  cp functmplttest.cpp functmpltsptest.cpp 
+    8  vi functmpltsptest.cpp 
+    9  c++ functmpltsptest.cpp -o program
+   10  ./program 
+   11  vi functmpltsptest.cpp 
+   12  c++ functmpltsptest.cpp -o program
+   13  vi functmpltsptest.cpp 
+   14  c++ functmpltsptest.cpp -o program
+   15  ./program 
+   16  vi functmpltsptest.cpp 
+   17  vi classtmplttest.cpp
+   18  c++ classtmplttest.cpp -o program 
+   19  ./program 
+   20  vi classtmplttest.cpp
+   21  c++ classtmplttest.cpp -o program 
+   22  ./program 
+   23  vi classtmplttest.cpp
+   24  c++ classtmplttest.cpp -o program 
+   25  ./program 
+   26  vi classtmplttest.cpp
+   27  c++ classtmplttest.cpp -o program 
+   28  vi classtmplttest.cpp
+   29  cp classtmplttest.cpp classtmpltsptest1.cpp 
+   30  vi classtmpltsptest1.cpp 
+   31  vi classtmplttest.cpp
+   32  vi classtmpltsptest1.cpp 
+   33  c++ classtmpltsptest1.cpp -o program 
+   34  ./program 
+   35  vi classtmpltsptest1.cpp 
+   36  c++ classtmpltsptest1.cpp -o program 
+   37  ./program 
+   38  vi classtmpltsptest1.cpp 
+   39  c++ classtmpltsptest1.cpp -o program 
+   40  vi classtmpltsptest1.cpp 
+   41  c++ classtmpltsptest1.cpp -o program 
+   42  vi classtmpltsptest1.cpp 
+   43  c++ classtmpltsptest1.cpp -o program 
+   44  ./program 
+   45  vi classtmpltsptest1.cpp 
+   46  c++ classtmpltsptest1.cpp -o program 
+   47  ./program 
+   48  vi classtmpltsptest1.cpp 
+   49  vi classtmpltsptest2.cpp 
+   50  c++ classtmpltsptest2.cpp -o program 
+   51  vi classtmpltsptest2.cpp 
+   52  c++ classtmpltsptest2.cpp -o program 
+   53  ./program 
+   54  vi classtmpltsptest2.cpp 
+   55  c++ classtmpltsptest2.cpp -o program 
+   56  ./program 
+   57  vi classtmpltsptest2.cpp 
+   58  c++ classtmpltsptest2.cpp -o program 
+   59  vi classtmpltsptest2.cpp 
+   60  c++ classtmpltsptest2.cpp -o program 
+   61  ./program 
+   62  vi classtmpltsptest2.cpp 
+   63  c++ classtmpltsptest2.cpp -o program 
+   64  ./program 
+   65  cd ..
+   66  ls
+   67  history > cmd03_10_24_2.txt 
