@@ -90,23 +90,35 @@ void printAllDetails( Patient* a[],int size){
       }
 }
 
+void sumOfInHousePatientBill(Patient* p[],int size){
+    double totalInHouseBill=0;
+    double totalNonInHouseBill=0;
+    for(int i=0;i<size;++i){
+        InHousePatient* inHouse = dynamic_cast<InHousePatient*>(p[i]);
+        if(inHouse != nullptr){
+            totalInHouseBill += inHouse->getBillAmount();
+        }else{
+            totalNonInHouseBill+=p[i]->getBillAmount();
+        }
+    }
+    cout<<"Total Bill Amount For Inhouse Patient :"<<totalInHouseBill<<endl;
+    cout<<"Total Bill Amount For Patient :"<<totalNonInHouseBill<<endl;
+    cout<<"Total Bill :"<<totalInHouseBill+totalNonInHouseBill<<endl;
+}
+
 int main() {
 
-	Patient* arr[3];
+	Patient* arr[4];
 
 	arr[0]= new Patient("Ana", BedType::VIP, 15);
 	arr[1]= new Patient("Bob", BedType::VIP, 13);
    	arr[2]= new InHousePatient("John", BedType::VIP, 15,5);
+    arr[3]= new InHousePatient("sydney",BedType::VIP,5,5);
 
-	for(int i=0;i<3;i++){
-	// cout << "Patient ID: " << arr[i]->getPatientId() << ", Bill Amount: $" << arr[i]->getBillAmount() << endl;		
-	}
 
-	printAllDetails(arr,3);
-    //cout << "Patient ID: " << p.getPatientId() << ", Bill Amount: $" << p.getBillAmount() << endl;
-
-    //InHousePatient ihp("John", BedType::VIP, 15, 10);
-    //cout << "Patient ID: " << ihp.getPatientId() << ", Bill Amount after discount: $" << ihp.getBillAmount() << endl;
+	printAllDetails(arr,4);
+    cout<<"---------------------------------"<<endl;
+    sumOfInHousePatientBill(arr,4);
 
     return 0;
 }
