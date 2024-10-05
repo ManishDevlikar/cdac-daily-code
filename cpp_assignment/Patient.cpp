@@ -75,7 +75,16 @@ public:
         this->discount = discount;
     }
 
-//double getTotal
+    double getTotal(Patient* p[],int size){
+	double total=0;
+	for(int i=0;i<size;++i){
+	        InHousePatient* inHouse = dynamic_cast<InHousePatient*>(p[i]);
+		if(inHouse!= nullptr){
+			total+= inHouse->getBillAmount(); 
+		}
+	}
+	return total;
+    }
 
     double getBillAmount() const {
         double totalAmount = Patient::getBillAmount();
