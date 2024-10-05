@@ -81,8 +81,14 @@ class HomeLoan : public Loan{
 int main(){
     PersonalLoan p1(1500000, 5);
     HomeLoan hl(2500000, 3);
+    Loan* p2 = new PersonalLoan(1500000,5);
+    Loan* h2 = new HomeLoan(2500000,3);
+
+    
     
     cout << "EMI for Personal Loan : " << p1.GetEMI() << endl;
     cout << "EMI for Home Loan : " << hl.GetEMI() << endl;
+    cout << "EMI for Personal Loan : " << p2->GetEMI() << endl;
+    cout << "EMI for Home Loan : " << h2->GetEMI() << endl;
     return 0;
 }
