@@ -28,6 +28,14 @@ public:
         return patientId; 
     }
 
+virtual double getTotal(Patient* p[],int size){
+	double total=0;
+	for(int i=0;i<size;++i){
+		total+=p[i]->getBillAmount();
+	}
+	return total;
+}
+
   virtual double getBillAmount() const {
         double price;
         switch (bedType) {
@@ -66,6 +74,8 @@ public:
     void setDiscount(double discount) {
         this->discount = discount;
     }
+
+//double getTotal
 
     double getBillAmount() const {
         double totalAmount = Patient::getBillAmount();
