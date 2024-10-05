@@ -28,14 +28,6 @@ public:
         return patientId; 
     }
 
-virtual double getTotal(Patient* p[],int size){
-	double total=0;
-	for(int i=0;i<size;++i){
-		total+=p[i]->getBillAmount();
-	}
-	return total;
-}
-
   virtual double getBillAmount() const {
         double price;
         switch (bedType) {
@@ -75,17 +67,6 @@ public:
         this->discount = discount;
     }
 
-    double getTotal(Patient* p[],int size){
-	double total=0;
-	for(int i=0;i<size;++i){
-	        InHousePatient* inHouse = dynamic_cast<InHousePatient*>(p[i]);
-		if(inHouse!= nullptr){
-			total+= inHouse->getBillAmount(); 
-		}
-	}
-	return total;
-    }
-
     double getBillAmount() const {
         double totalAmount = Patient::getBillAmount();
 
@@ -95,8 +76,22 @@ public:
         }
         return totalAmount;
     }
+
 };
 
+double getTotalDiscount(Patient* p[],int size) {
+    double total=0;
+    for(int i=0;i<size;++i){
+
+        InHousePatient* inHouse = dynamic_cast<InHousePatient*>(p[i]);
+        if(inHouse != nullptr){
+           double inHouseTotalDiscountAmount = inHouse->getBillAmount();
+           double inHouseTotalAmount = inHouse->Patient::getBillAmount();
+           total += inHouseTotalAmount-inHouseTotalDiscountAmount;
+        }
+    }
+    return total;
+}
 
 void printAllDetails( Patient* a[],int size){
       for(int i=0;i<size;i++){
@@ -132,12 +127,16 @@ int main() {
 	arr[0]= new Patient("Ana", BedType::VIP, 15);
 	arr[1]= new Patient("Bob", BedType::VIP, 13);
    	arr[2]= new InHousePatient("John", BedType::VIP, 15,5);
-    arr[3]= new InHousePatient("sydney",BedType::VIP,5,5);
+    arr[3]= new InHousePatient("sydney",BedType::VIP,13,5);
 
 
 	printAllDetails(arr,4);
     cout<<"---------------------------------"<<endl;
     sumOfInHousePatientBill(arr,4);
+    cout<<"---------------------------------"<<endl;
+    cout<<"----------------Total Discounted Amount----------------<<"<<endl;
+    cout<<"Total Discounted Amount : $"<<getTotalDiscount(arr,4)<<endl;
+
 
     return 0;
 }
