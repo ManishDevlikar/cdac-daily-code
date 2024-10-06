@@ -14,7 +14,9 @@ public class Program{
 	      Employee.CreateEmployee(out emp2,int.Parse(args[0]),double.Parse(args[1]),double.Parse(args[2]));
 
 	      emp2.PrintEmployee();
-			
+		  emp2.setEmployeeType(EmployeeType.Fullstack);
+		  emp2.PrintEmployee();
+		  IncreaseSal(ref emp2,2000);	
 	}
 
 }
