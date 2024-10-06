@@ -16,7 +16,7 @@ public class Program{
 	      emp2.PrintEmployee();
 		  emp2.setEmployeeType(EmployeeType.Fullstack);
 		  emp2.PrintEmployee();
-		  IncreaseSal(ref emp2,2000);	
+		  Employee.IncreaseSal(ref emp2,2000);	
 	}
 
 }
