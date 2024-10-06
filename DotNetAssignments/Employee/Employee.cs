@@ -31,12 +31,7 @@ public struct Employee{
 	}
 
 	public static Employee CreateEmployee(out Employee emp,int age,double sal,double comm){
-		emp = new Employee();
-		emp.id=++count;
-		emp.age= age;
-		emp.salary=sal;
-		emp.comm=comm;
-		emp.employeeType=EmployeeType.Trainee;
+		emp = new Employee(sal,comm,age);
 		return emp;
 	} 
 	public static void IncreaseSal(ref Employee employee,double salaryToIncrease){
