@@ -1,0 +1,14 @@
+D:\ClassCode\DotNetAssignments\Patient\bin\Debug\net7.0\Patient.exe
+D:\ClassCode\DotNetAssignments\Patient\bin\Debug\net7.0\Patient.deps.json
+D:\ClassCode\DotNetAssignments\Patient\bin\Debug\net7.0\Patient.runtimeconfig.json
+D:\ClassCode\DotNetAssignments\Patient\bin\Debug\net7.0\Patient.dll
+D:\ClassCode\DotNetAssignments\Patient\bin\Debug\net7.0\Patient.pdb
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\Patient.GeneratedMSBuildEditorConfig.editorconfig
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\Patient.AssemblyInfoInputs.cache
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\Patient.AssemblyInfo.cs
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\Patient.csproj.CoreCompileInputs.cache
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\Patient.dll
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\refint\Patient.dll
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\Patient.pdb
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\Patient.genruntimeconfig.cache
+D:\ClassCode\DotNetAssignments\Patient\obj\Debug\net7.0\ref\Patient.dll

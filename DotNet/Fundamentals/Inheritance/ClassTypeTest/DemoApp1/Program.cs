@@ -13,6 +13,7 @@ class Program
         Employee jack = new Employee();
         jack.DaysWorked = 23;
         jack.DailyWages = 424;
+        Console.WriteLine(jack.DaysWorked);
         Console.WriteLine("Jack's income is {0:0.00}, tax is {1:0.00}", jack.MonthlyIncome(), Tax(jack));
         SalesPerson jill = new SalesPerson(184, 53, 62000);
         Console.WriteLine("Jill's income is {0:0.00}, tax is {1:0.00}", jill.MonthlyIncome(), Tax(jill));
