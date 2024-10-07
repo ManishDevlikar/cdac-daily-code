@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/ClassCode/cpp_assignment",
-      "program": "d:/ClassCode/cpp_assignment/build/Debug/outDebug",
+      "cwd": "d:/ClassCode/Foundations/Inheritance",
+      "program": "d:/ClassCode/Foundations/Inheritance/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

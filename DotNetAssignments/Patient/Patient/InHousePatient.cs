@@ -16,7 +16,5 @@ namespace PatientService
             return base.getBillAmount(p) - (base.getBillAmount(p) * discount);
         }
 
-        
-
     }
 }

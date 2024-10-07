@@ -16,6 +16,7 @@ public enum BedType
         public int NoOfDays { get; set; }
 
         public BedType bedType;
+
         public Patient(string name, int noOfDays, BedType bedType)
         {
             PatientName = name;
