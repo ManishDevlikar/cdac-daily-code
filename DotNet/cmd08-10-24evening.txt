@@ -1,0 +1,21 @@
+    1  cd DotNet/Fundamentals/
+    2  ls
+    3  cd Inheritance/
+    4  ls
+    5  mkdir InterfaceTypeTest
+    6  cd InterfaceTypeTest/
+    7  dotnet new classlib -n Banking -o BankLib
+    8  ls
+    9  dotnet new console -n DemoApp -o DemoApp1
+   10  ls
+   11  code .
+   12  cd BankLib/
+   13  dotnet run
+   14  cd ../DemoApp1/
+   15  dotnet run
+   16  ls bin/Debug/net8.0/
+   17  dotnet build
+   18  ls bin/Debug/net8.0/
+   19  cd ..
+   20  ls
+   21  history >cmd08-10-24evening.txt 
