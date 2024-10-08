@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P70PuGc7YSgGHhTYyEYpvIkYwdUjDoxWmpgfV0qwlyakXFkSmpalcQ7zxXAYd2ij8bF1pfxxWvynCK4q3R0KVA==",
+  "dgSpecHash": "zSI9I24tS1vZDaCOoob+iD/NIUpfxABjcjbptjW+jZJ9sa2EGRzf9d64nvYWz9p42aa75mJUjWgb6APPvHYNew==",
   "success": true,
-  "projectFilePath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj",
+  "projectFilePath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

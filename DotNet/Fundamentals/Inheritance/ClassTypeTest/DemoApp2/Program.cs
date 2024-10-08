@@ -32,3 +32,5 @@ void Print(string label, object info)
 {
     Console.WriteLine("{0} = {1}", label, info);
 }
+
+Console.WriteLine(a);

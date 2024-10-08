@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj": {}
+    "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj": {}
   },
   "projects": {
-    "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj": {
+    "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj",
+        "projectUniqueName": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj",
         "projectName": "DemoApp",
-        "projectPath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj",
+        "projectPath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/DemoApp.csproj",
         "packagesPath": "/home/cdac/.nuget/packages/",
-        "outputPath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/obj/",
+        "outputPath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/cdac/.nuget/NuGet/NuGet.Config"
