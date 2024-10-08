@@ -1,0 +1,9 @@
+    1  cd Fundamentals/Inheritance/ClassTypeTest/DemoApp2/
+    2  code .
+    3  dotnet run
+    4  rm DemoApp.il
+    5  dotnet build
+    6  ildasm bin/Debug/net8.0/DemoApp.dll > DemoApp.il
+    7  dotnet ildasm bin/Debug/net8.0/DemoApp.dll > DemoApp.il
+    8  pwd
+    9  history > ../../../../cmd08-10-24morning.txt

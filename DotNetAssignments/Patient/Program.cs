@@ -19,6 +19,7 @@ class Program{
 
 
     Console.WriteLine($"PatientID: {patient.PatientID}, Patient Name: {patient.PatientName}, Bed Type: {patient.bedType}");
+    Console.WriteLine($"PatientID: {inHousePatient.PatientID}, Patient Name: {inHousePatient.PatientName}, Bed Type: {inHousePatient.bedType}");
 
 
    double bill1= patient.getBillAmount(patient);

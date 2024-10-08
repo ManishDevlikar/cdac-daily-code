@@ -5,6 +5,8 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<!--Provide imports for common namespaces indicated by the Sdk-->
 		<ImplicitUsings>enable</ImplicitUsings>
+		<!--Treat reference-types as non-nullable-->
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 </Project>
