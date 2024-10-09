@@ -9,3 +9,15 @@
 /home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/refint/Banking.dll
 /home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.pdb
 /home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/ref/Banking.dll
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.AssemblyInfoInputs.cache
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.AssemblyInfo.cs
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.csproj.CoreCompileInputs.cache
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.sourcelink.json
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.dll
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/refint/Banking.dll
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/Banking.pdb
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/bin/Debug/net8.0/Banking.deps.json
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/bin/Debug/net8.0/Banking.dll
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/bin/Debug/net8.0/Banking.pdb
+/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/Debug/net8.0/ref/Banking.dll

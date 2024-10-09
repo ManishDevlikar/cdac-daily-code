@@ -12,7 +12,7 @@ public static class Banker // factory class
         //implicitly typed local - actual type of a local
         //variable declared using 'var' keyword will be 
         //infered from its initializer expression
-        var acc = new CurrentAccount();
+            CurrentAccount acc = new CurrentAccount();
         acc.Id = ++nid + 100000000;
         return acc;
     }

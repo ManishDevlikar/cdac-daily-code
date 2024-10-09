@@ -8,6 +8,8 @@ public abstract class Account
 {
     public long Id { get; internal set; }
 
+
+
     public decimal Balance { get; protected set; }    
 
     //A method declared using 'abstract' keyword
