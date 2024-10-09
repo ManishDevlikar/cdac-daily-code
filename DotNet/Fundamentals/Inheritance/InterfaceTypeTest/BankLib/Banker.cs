@@ -12,7 +12,7 @@ public static class Banker // factory class
         //implicitly typed local - actual type of a local
         //variable declared using 'var' keyword will be 
         //infered from its initializer expression
-            CurrentAccount acc = new CurrentAccount();
+        var acc = new CurrentAccount();
         acc.Id = ++nid + 100000000;
         return acc;
     }
@@ -24,7 +24,11 @@ public static class Banker // factory class
         return acc;
     }
 
-    public static void Transfer(Account from, decimal amount, Account into)
+    //Extension method is a member of static class whose first parameter
+    //is qualified with 'this' keyword. Such a method can be called as
+    //an instance method of its first parameter type by using namespace
+    //of the static class in which it is defined.
+    public static void Transfer(this Account from, decimal amount, Account into)
     {
         if(ReferenceEquals(from, into))
             throw new ArgumentException("Illegal transfer");

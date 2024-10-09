@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj",
+      "projectUniqueName": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj",
       "projectName": "Banking",
-      "projectPath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj",
+      "projectPath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj",
       "packagesPath": "/home/cdac/.nuget/packages/",
-      "outputPath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/",
+      "outputPath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cdac/.nuget/NuGet/NuGet.Config"

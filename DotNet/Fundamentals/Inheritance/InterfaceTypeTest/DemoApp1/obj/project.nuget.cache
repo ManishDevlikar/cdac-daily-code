@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5kdL0VlEnOpnnG3pCM+mabQfMzeKzUhoHfGXuwT6PTfY1ANf9AjtdM8m9z16+ii00dC++VBh0d5Lr54Cg96jg==",
+  "dgSpecHash": "9Y8PKGl7wi/3Ls/xPIVRrdOfGH0lynu4eTEWiHsb0Qhhy8pFo51ZCsd39qmjILBDZlOI1uxhS+jBpv/JagSqiw==",
   "success": true,
-  "projectFilePath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/DemoApp.csproj",
+  "projectFilePath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/DemoApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

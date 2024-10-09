@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/DemoApp.csproj",
+      "projectUniqueName": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/DemoApp.csproj",
       "projectName": "DemoApp",
-      "projectPath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/DemoApp.csproj",
+      "projectPath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/DemoApp.csproj",
       "packagesPath": "/home/cdac/.nuget/packages/",
-      "outputPath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/obj/",
+      "outputPath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/DemoApp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cdac/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj": {
-              "projectPath": "/mnt/d/ClassCode/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj"
+            "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj": {
+              "projectPath": "/home/cdac/Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/BankLib/Banking.csproj"
             }
           }
         }
