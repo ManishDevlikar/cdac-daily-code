@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "inhouseconfig/1.0.0": {
+        "dependencies": {
+          "hospital": "1.0.0"
+        },
+        "runtime": {
+          "inhouseconfig.dll": {}
+        }
+      },
+      "hospital/1.0.0": {
+        "runtime": {
+          "hospital.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "inhouseconfig/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "hospital/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

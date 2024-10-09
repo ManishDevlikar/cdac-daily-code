@@ -1,0 +1,11 @@
+/home/cdac/class_code/lib/hospitallib/bin/Debug/net8.0/hospital.deps.json
+/home/cdac/class_code/lib/hospitallib/bin/Debug/net8.0/hospital.dll
+/home/cdac/class_code/lib/hospitallib/bin/Debug/net8.0/hospital.pdb
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/hospital.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/hospital.AssemblyInfoInputs.cache
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/hospital.AssemblyInfo.cs
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/hospital.csproj.CoreCompileInputs.cache
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/hospital.dll
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/refint/hospital.dll
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/hospital.pdb
+/home/cdac/class_code/lib/hospitallib/obj/Debug/net8.0/ref/hospital.dll
