@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "demoapp/1.0.0": {
+        "dependencies": {
+          "loanlib": "1.0.0"
+        },
+        "runtime": {
+          "demoapp.dll": {}
+        }
+      },
+      "loanlib/1.0.0": {
+        "runtime": {
+          "loanlib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "demoapp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "loanlib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

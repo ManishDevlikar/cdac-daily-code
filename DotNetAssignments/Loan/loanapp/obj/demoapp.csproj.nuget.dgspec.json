@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/demoapp.csproj": {}
+  },
+  "projects": {
+    "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj",
+        "projectName": "loanlib",
+        "projectPath": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj",
+        "packagesPath": "/home/cdac/.nuget/packages/",
+        "outputPath": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cdac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/cdac/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/demoapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/demoapp.csproj",
+        "projectName": "demoapp",
+        "projectPath": "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/demoapp.csproj",
+        "packagesPath": "/home/cdac/.nuget/packages/",
+        "outputPath": "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cdac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj": {
+                "projectPath": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/cdac/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
