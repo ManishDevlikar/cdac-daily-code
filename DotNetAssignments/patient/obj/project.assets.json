@@ -1,36 +1,38 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net7.0": []
   },
   "packageFolders": {
-    "/home/cdac/.nuget/packages/": {}
+    "C:\\Users\\dac37\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cdac/class_code/patient/DemoApp.csproj",
-      "projectName": "DemoApp",
-      "projectPath": "/home/cdac/class_code/patient/DemoApp.csproj",
-      "packagesPath": "/home/cdac/.nuget/packages/",
-      "outputPath": "/home/cdac/class_code/patient/obj/",
+      "projectUniqueName": "D:\\ClassCode\\DotNetAssignments\\Patient\\Patient.csproj",
+      "projectName": "Patient",
+      "projectPath": "D:\\ClassCode\\DotNetAssignments\\Patient\\Patient.csproj",
+      "packagesPath": "C:\\Users\\dac37\\.nuget\\packages\\",
+      "outputPath": "D:\\ClassCode\\DotNetAssignments\\Patient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/cdac/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dac37\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
       }
     }
   }

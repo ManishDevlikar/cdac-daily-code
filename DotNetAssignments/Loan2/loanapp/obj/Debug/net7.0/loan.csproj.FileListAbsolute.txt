@@ -1,0 +1,12 @@
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/loan.csproj.AssemblyReference.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/loan.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/loan.AssemblyInfoInputs.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/loan.AssemblyInfo.cs
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/loan.csproj.CoreCompileInputs.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/bin/Debug/net7.0/loan.deps.json
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/bin/Debug/net7.0/loan.dll
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/bin/Debug/net7.0/loan.pdb
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/loan.dll
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/refint/loan.dll
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/loan.pdb
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/Debug/net7.0/ref/loan.dll
