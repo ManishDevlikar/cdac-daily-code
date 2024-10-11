@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj": {}
+    "/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/loanlib.csproj": {}
   },
   "projects": {
-    "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj": {
+    "/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/loanlib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj",
+        "projectUniqueName": "/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/loanlib.csproj",
         "projectName": "loanlib",
-        "projectPath": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj",
+        "projectPath": "/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/loanlib.csproj",
         "packagesPath": "/home/cdac/.nuget/packages/",
-        "outputPath": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/obj/",
+        "outputPath": "/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/cdac/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,18 @@
+    1  clear
+    2  cd Fundamentals/Generics/TypeParamTest/
+    3  ls
+    4  dotnet new console -n DemoApp -o DemoApp2
+    5  cd DemoApp2/
+    6  cp ../DemoApp1/Interval.cs .
+    7  code .
+    8  dotnet run
+    9  cd ../..
+   10  mkdir IterationTest
+   11  cd IterationTest/
+   12  dotnet new console -n DemoApp -o DemoApp1
+   13  cd DemoApp1/
+   14  cp ../../TypeParamTest/DemoApp2/Interval.cs .
+   15  cp -r ../../TypeParamTest/DemoApp2/Utitlities/ .
+   16  code .
+   17  dotnet run
+   18  history > ../../../../cmd11-10-24morning.txt 

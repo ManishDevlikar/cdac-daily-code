@@ -1,0 +1,15 @@
+    1  clear
+    2  cd DotNet/Fundamentals/Generics/IterationTest/DemoApp1/
+    3  code .
+    4  dotnet run
+    5  cd ..
+    6  dotnet new console -n DemoApp -o DemoApp2
+    7  cd DemoApp2/
+    8  cp ../DemoApp1/Interval.cs .
+    9  code .
+   10  dotnet rum
+   11  dotnet run
+   12  dotnet run thursday
+   13  dotnet run Thursday
+   14  dotnet run Sunday
+   15  history > ../../../../cmd11-10-24evening.txt 

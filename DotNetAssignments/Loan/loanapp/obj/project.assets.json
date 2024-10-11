@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/demoapp.csproj",
+      "projectUniqueName": "/mnt/d/ClassCode/DotNetAssignments/Loan/loanapp/demoapp.csproj",
       "projectName": "demoapp",
-      "projectPath": "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/demoapp.csproj",
+      "projectPath": "/mnt/d/ClassCode/DotNetAssignments/Loan/loanapp/demoapp.csproj",
       "packagesPath": "/home/cdac/.nuget/packages/",
-      "outputPath": "/mnt/d/class_code/Dot_Assignment/Loan/loanapp/obj/",
+      "outputPath": "/mnt/d/ClassCode/DotNetAssignments/Loan/loanapp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cdac/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj": {
-              "projectPath": "/mnt/d/class_code/Dot_Assignment/Loan/Loan/loanlib.csproj"
+            "/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/loanlib.csproj": {
+              "projectPath": "/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/loanlib.csproj"
             }
           }
         }

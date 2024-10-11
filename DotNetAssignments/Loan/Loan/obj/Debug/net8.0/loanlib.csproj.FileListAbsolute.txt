@@ -9,3 +9,15 @@
 /mnt/d/class_code/Dot_Assignment/Loan/Loan/obj/Debug/net8.0/refint/loanlib.dll
 /mnt/d/class_code/Dot_Assignment/Loan/Loan/obj/Debug/net8.0/loanlib.pdb
 /mnt/d/class_code/Dot_Assignment/Loan/Loan/obj/Debug/net8.0/ref/loanlib.dll
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/loanlib.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/loanlib.AssemblyInfoInputs.cache
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/loanlib.AssemblyInfo.cs
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/loanlib.csproj.CoreCompileInputs.cache
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/loanlib.sourcelink.json
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/loanlib.dll
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/refint/loanlib.dll
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/loanlib.pdb
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/bin/Debug/net8.0/loanlib.deps.json
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/bin/Debug/net8.0/loanlib.dll
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/bin/Debug/net8.0/loanlib.pdb
+/mnt/d/ClassCode/DotNetAssignments/Loan/Loan/obj/Debug/net8.0/ref/loanlib.dll

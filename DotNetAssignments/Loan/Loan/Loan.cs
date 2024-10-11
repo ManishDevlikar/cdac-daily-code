@@ -1,6 +1,6 @@
 ﻿namespace loanlib;
 
-public abstract class Loan
+public abstract class Loan 
 {
     public int Principle { get; set;}
     public float Period { get; set;}

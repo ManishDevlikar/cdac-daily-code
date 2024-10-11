@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("loanlib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c70da0c43080cfcaf7d0cf89978428325edd5e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("loanlib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("loanlib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

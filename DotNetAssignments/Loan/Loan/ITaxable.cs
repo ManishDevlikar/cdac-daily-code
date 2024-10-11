@@ -1,6 +1,7 @@
 namespace loanlib;
 
-public interface Taxable
+public interface ITaxable
 {
-    
+    double CalculateTax(double tax);
 }
+
