@@ -1,7 +1,7 @@
 namespace loanapp {
 
 sealed public class HomeLoan : Loan,IDiscountable{
-        private double approvedAmount;
+       internal double approvedAmount  { set; get;}
         internal HomeLoan(long principle,int period):base(principle,period){
             this.approvedAmount=3000000;
         }
