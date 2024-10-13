@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/loan.csproj": {}
+    "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/loan.csproj": {
+    "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/loan.csproj",
+        "projectUniqueName": "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj",
         "projectName": "loan",
-        "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/loan.csproj",
-        "packagesPath": "/home/manish/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/obj/",
+        "projectPath": "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj",
+        "packagesPath": "C:\\Users\\dac37\\.nuget\\packages\\",
+        "outputPath": "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/manish/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dac37\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

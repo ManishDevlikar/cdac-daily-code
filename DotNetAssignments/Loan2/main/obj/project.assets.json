@@ -27,32 +27,34 @@
     ]
   },
   "packageFolders": {
-    "/home/manish/.nuget/packages/": {}
+    "C:\\Users\\dac37\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/main/main.csproj",
+      "projectUniqueName": "D:\\ClassCode\\DotNetAssignments\\Loan2\\main\\main.csproj",
       "projectName": "main",
-      "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/main/main.csproj",
-      "packagesPath": "/home/manish/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/main/obj/",
+      "projectPath": "D:\\ClassCode\\DotNetAssignments\\Loan2\\main\\main.csproj",
+      "packagesPath": "C:\\Users\\dac37\\.nuget\\packages\\",
+      "outputPath": "D:\\ClassCode\\DotNetAssignments\\Loan2\\main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/manish/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dac37\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/loan.csproj": {
-              "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/Loan2/loanapp/loan.csproj"
+            "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj": {
+              "projectPath": "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj"
             }
           }
         }
@@ -82,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
       }
     }
   }
