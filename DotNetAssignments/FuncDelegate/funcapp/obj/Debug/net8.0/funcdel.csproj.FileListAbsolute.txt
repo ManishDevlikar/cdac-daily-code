@@ -1,0 +1,15 @@
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/bin/Debug/net8.0/funcdel
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/bin/Debug/net8.0/funcdel.deps.json
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/bin/Debug/net8.0/funcdel.runtimeconfig.json
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/bin/Debug/net8.0/funcdel.dll
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/bin/Debug/net8.0/funcdel.pdb
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.AssemblyInfoInputs.cache
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.AssemblyInfo.cs
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.csproj.CoreCompileInputs.cache
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.sourcelink.json
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.dll
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/refint/funcdel.dll
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.pdb
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/funcdel.genruntimeconfig.cache
+/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/Debug/net8.0/ref/funcdel.dll
