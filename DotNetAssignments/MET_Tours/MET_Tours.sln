@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tourslib", "MetTours\tourslib.csproj", "{1C724195-0818-4115-83CC-BC281AF1E8AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "main", "toursapp\main.csproj", "{A35AAA2D-B8BF-4292-82BD-1C4589B61C68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C724195-0818-4115-83CC-BC281AF1E8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C724195-0818-4115-83CC-BC281AF1E8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C724195-0818-4115-83CC-BC281AF1E8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C724195-0818-4115-83CC-BC281AF1E8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35AAA2D-B8BF-4292-82BD-1C4589B61C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35AAA2D-B8BF-4292-82BD-1C4589B61C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35AAA2D-B8BF-4292-82BD-1C4589B61C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35AAA2D-B8BF-4292-82BD-1C4589B61C68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9820E5D-59F4-4223-8B00-8644E371E14A}
+	EndGlobalSection
+EndGlobal

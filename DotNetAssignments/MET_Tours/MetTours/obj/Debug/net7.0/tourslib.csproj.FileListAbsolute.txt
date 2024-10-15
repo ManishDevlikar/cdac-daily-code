@@ -1,0 +1,12 @@
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/bin/Debug/net7.0/tourslib.deps.json
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/bin/Debug/net7.0/tourslib.dll
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/bin/Debug/net7.0/tourslib.pdb
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/tourslib.csproj.AssemblyReference.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/tourslib.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/tourslib.AssemblyInfoInputs.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/tourslib.AssemblyInfo.cs
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/tourslib.csproj.CoreCompileInputs.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/tourslib.dll
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/refint/tourslib.dll
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/tourslib.pdb
+/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/Debug/net7.0/ref/tourslib.dll
