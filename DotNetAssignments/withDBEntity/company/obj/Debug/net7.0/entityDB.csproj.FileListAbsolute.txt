@@ -1,0 +1,5 @@
+/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/withDBEntity/company/obj/Debug/net7.0/entityDB.csproj.AssemblyReference.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/withDBEntity/company/obj/Debug/net7.0/entityDB.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/withDBEntity/company/obj/Debug/net7.0/entityDB.AssemblyInfoInputs.cache
+/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/withDBEntity/company/obj/Debug/net7.0/entityDB.AssemblyInfo.cs
+/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/withDBEntity/company/obj/Debug/net7.0/entityDB.csproj.CoreCompileInputs.cache
