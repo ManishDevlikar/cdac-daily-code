@@ -2,7 +2,7 @@
 using DemoApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddSingleton<IInterest, Compound>();
+builder.Services.AddSingleton<IInterest, Simple>();
 var app = builder.Build();
 
 
