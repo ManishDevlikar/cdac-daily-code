@@ -1,0 +1,25 @@
+    1  clear
+    2  cd DotNet/Enterprise/Microservices/GRPCTest/ServerApp/
+    3  code .
+    4  notepad.exe ../ContractLib/order_manager.proto
+    5  dotnet build
+    6  netstat -pnlt
+    7  cd ..
+    8  DemoApp
+    9  mkdir DemoApp
+   10  cd DemoApp/
+   11  wget iitdac.met.edu/shared/Program.py
+   12  vi Program.py 
+   13  python -m grpc_tools.protoc --python_out=. --grpc_python_out=. order_manager.proto -I ../ContractLib/
+   14  ls
+   15  python Program.py CU201
+   16  python Program.py CU202
+   17  python Program.py CU203
+   18  python Program.py CU204
+   19  python Program.py CU205
+   20  python Program.py CU204 203 12
+   21  python Program.py CU204
+   22  python Program.py CU202 208 15
+   23  cd ..
+   24  ls
+   25  history >cmd25-10-24evening1.txt 

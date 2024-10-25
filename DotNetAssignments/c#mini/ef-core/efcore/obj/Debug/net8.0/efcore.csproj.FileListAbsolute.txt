@@ -1,0 +1,5 @@
+/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/Debug/net8.0/efcore.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/Debug/net8.0/efcore.AssemblyInfoInputs.cache
+/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/Debug/net8.0/efcore.AssemblyInfo.cs
+/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/Debug/net8.0/efcore.csproj.CoreCompileInputs.cache
+/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/Debug/net8.0/efcore.sourcelink.json
