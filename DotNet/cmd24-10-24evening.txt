@@ -1,0 +1,6 @@
+    1  cd DemoApp2/
+    2  ls
+    3  code .
+    4  dotnet run
+    5  cd ..
+    6  history >cmd24-10-24evening.txt 

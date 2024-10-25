@@ -1,0 +1,29 @@
+    1  cd Enterprise/
+    2  ls
+    3  mkdir Microservices
+    4  cd Microservices/
+    5  mkdir GRPCTest
+    6  cd GRPCTest/
+    7  ls
+    8  dotnet new classlib -n Sales -o ContractLib
+    9  cd ContractLib/
+   10  ls
+   11  rm Class1.cs 
+   12  dotnet add package Grpc
+   13  dotnet add package Grpc.Tools
+   14  dotnet add package Google.Protobuf
+   15  code .
+   16  dotnet build
+   17  cd ..
+   18  dotnet new web -o ServerApp
+   19  cd ServerApp/
+   20  dotnet add reference ../ContractLib/
+   21  dotnet add package Grpc.AspNetCore.Server
+   22  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   23  code .
+   24  dotnet run
+   25  dotnet build
+   26  ./bin/Debug/net8.0/ServerApp 
+   27  dotnet run
+   28  pwd
+   29  history > ../../../../cmd25-10-24morning.txt 
