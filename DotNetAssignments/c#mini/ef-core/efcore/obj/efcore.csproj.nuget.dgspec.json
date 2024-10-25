@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj": {}
+    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj": {}
   },
   "projects": {
-    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj": {
+    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj",
+        "projectUniqueName": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj",
         "projectName": "efcore",
-        "projectPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj",
-        "packagesPath": "/home/cdac/.nuget/packages/",
-        "outputPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/",
+        "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj",
+        "packagesPath": "/home/manish/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cdac/.nuget/NuGet/NuGet.Config"
+          "/home/manish/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -32,16 +32,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/cdac/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 using System;
-using Microsoft.EntityFramework;
+using Microsoft.EntityFrameworkCore;
 
 namespace company.Entity
 {

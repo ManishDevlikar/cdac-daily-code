@@ -1,5 +1,5 @@
 using efcore.entities;
-
+using Microsoft.EntityFrameworkCore;
 namespace efcore.dbcontext;
 
 public class EfDbContext : DbContext{
