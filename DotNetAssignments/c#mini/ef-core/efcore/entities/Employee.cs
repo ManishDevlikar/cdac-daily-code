@@ -21,8 +21,9 @@ public class Employee{
     public Department Department { get; set; }
 
     // One-to-Many relationship with Department
+    [ForeignKey("department45")]
     [Column("deptno")]
-    public int DepartmentId { get; set; }
+    public decimal DepartmentId { get; set; }
 
 
 }

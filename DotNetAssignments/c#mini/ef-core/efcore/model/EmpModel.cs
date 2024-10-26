@@ -1,5 +1,6 @@
 using System;
 using efcore.dbcontext;
+using Microsoft.EntityFrameworkCore;
 
 namespace efcore.model
 {
@@ -13,11 +14,11 @@ namespace efcore.model
             }
         }
 
-        public void DisplayAllEmployees(){
+        public void DisplayAllEmployees(decimal deptId){
             using var context = new EfDbContext();
-            var employees = context.Employees.ToList();
-            foreach (var item in employees){
-                Console.WriteLine($"{item.Id} - {item.Name} - {item.Salary}");
+            var Dept = context.Departments.Include(d=>d.Employees).FirstOrDefault(d=>d.Id == deptId);
+            foreach (var item in Dept.Employees){
+                Console.WriteLine($"{item.Name}");
             }
         }
     }

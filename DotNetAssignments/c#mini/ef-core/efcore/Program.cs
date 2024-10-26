@@ -11,5 +11,6 @@ public class Program{
         EmpModel model = new EmpModel();
 
         model.DisplayAllDepartments(); 
+        model.DisplayAllEmployees(10);
     }
 }
