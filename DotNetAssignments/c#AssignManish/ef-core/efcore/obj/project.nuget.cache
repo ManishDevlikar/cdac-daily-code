@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mdAIbZF2teWM7pBnGt6n3foNuAwx/PUAR24MiTfJPXtjsXlMoJKkrJY86THP4EQIT6nLnmQckesej5b5ojbjfg==",
+  "dgSpecHash": "PD/8Q9hPXVEIoRtrC+wrYkRMvTgA+FDq2ZQBHGdL6bxTODTAIN/J1/sVWyDASLqtqOXIU3Fb6/twOjgvKHfNMg==",
   "success": true,
-  "projectFilePath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj",
+  "projectFilePath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/ef-core/efcore/efcore.csproj",
   "expectedPackageFiles": [
     "/home/cdac/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/cdac/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

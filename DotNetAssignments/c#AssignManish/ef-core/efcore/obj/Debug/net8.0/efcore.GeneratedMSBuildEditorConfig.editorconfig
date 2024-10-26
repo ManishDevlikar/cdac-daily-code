@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = efcore
-build_property.ProjectDir = /mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/
+build_property.ProjectDir = /mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/ef-core/efcore/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

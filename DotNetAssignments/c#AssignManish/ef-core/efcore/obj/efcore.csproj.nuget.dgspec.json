@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj": {}
+    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/ef-core/efcore/efcore.csproj": {}
   },
   "projects": {
-    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj": {
+    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/ef-core/efcore/efcore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj",
+        "projectUniqueName": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/ef-core/efcore/efcore.csproj",
         "projectName": "efcore",
-        "projectPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/efcore.csproj",
+        "projectPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/ef-core/efcore/efcore.csproj",
         "packagesPath": "/home/cdac/.nuget/packages/",
-        "outputPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#mini/ef-core/efcore/obj/",
+        "outputPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/ef-core/efcore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/cdac/.nuget/NuGet/NuGet.Config"
