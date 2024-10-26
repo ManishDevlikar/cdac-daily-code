@@ -1,12 +1,9 @@
 namespace DemoApp.Models;
 
-public readonly record struct ItemInfo(double Cost, int Stock)
+public record ItemInfo(string Id, decimal Cost, int Stock)
 {
-    public static ItemInfo Parse(string message)
+    public override string ToString()
     {
-        string[] segments = message.Split('&');
-        double cost = double.Parse(segments[0][5..]);
-        int stock = int.Parse(segments[1][6..]);
-        return new ItemInfo(cost, stock);
+        return string.Format("cost={0}&stock={1}", Cost, Stock);
     }
 }

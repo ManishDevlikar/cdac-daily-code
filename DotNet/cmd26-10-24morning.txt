@@ -1,0 +1,22 @@
+    1  cd Enterprise/Microservices/GRPCTest/DemoApp/
+    2  python Program.py CU201
+    3  cd ../..
+    4  ls
+    5  mkdir RESTTest
+    6  cd RESTTest/
+    7  dotnet new web -n DemoApp
+    8  cd DemoApp/
+    9  mkdir wwwroot
+   10  cd wwwroot/
+   11  cd ..
+   12  code .
+   13  dotnet add reference ../../GRPCTest/ContractLib/
+   14  dotnet add package Grpc.ClientFactory
+   15  dotnet add package Grpc.Net.ClientFactory
+   16  dotnet run
+   17  cp ../../../AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/alpine.js wwwroot/
+   18  dotnet run
+   19  python -m http.server --directory wwwroot/ 5001 &> /dev/null &
+   20  dotnet run
+   21  pkill -ef http.server
+   22  history > ../../../../cmd26-10-24morning.txt 

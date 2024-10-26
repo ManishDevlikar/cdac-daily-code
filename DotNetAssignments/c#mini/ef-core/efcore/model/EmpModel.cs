@@ -12,5 +12,13 @@ namespace efcore.model
                 Console.WriteLine(item.Name);
             }
         }
+
+        public void DisplayAllEmployees(){
+            using var context = new EfDbContext();
+            var employees = context.Employees.ToList();
+            foreach (var item in employees){
+                Console.WriteLine($"{item.Id} - {item.Name} - {item.Salary}");
+            }
+        }
     }
 }
