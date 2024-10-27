@@ -1,0 +1,49 @@
+ <html>
+    <head>
+        <title>Employee Management</title>
+    </head>
+
+    <body>
+        <h1>Register New Employee</h1>
+        <form method="post" asp-action="Register">
+    <div>
+        <label for="deptId">Department ID:</label>
+        <input type="number" id="deptId" name="deptId" required />
+    </div>
+    <div>
+        <label for="empno">Employee Number:</label>
+        <input type="number" id="empno" name="empno" required />
+    </div>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+    </div>
+    <div>
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job" required />
+    </div>
+    <div>
+        <label for="mgr">Manager ID:</label>
+        <input type="number" id="mgr" name="mgr" required />
+    </div>
+    <div>
+        <label for="date">Hire Date:</label>
+        <input type="date" id="date" name="date" required />
+    </div>
+    <div>
+        <label for="salary">Salary:</label>
+        <input type="number" step="0.01" id="salary" name="salary" required />
+    </div>
+    <div>
+        <label for="comm">Commission:</label>
+        <input type="number" step="0.01" id="comm" name="comm" />
+    </div>
+    <div>
+        <button type="submit">Add Employee</button>
+    </div>
+</form>
+
+<a href="/Home/Index">Our Employees</a>
+
+    </body>
+ </html>

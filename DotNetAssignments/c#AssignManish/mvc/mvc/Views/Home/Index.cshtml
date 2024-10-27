@@ -1,0 +1,32 @@
+@model IEnumerable<mvc.model.WorkforceHero>
+<html>
+    <head>
+        <title>Employee Management</title>
+    </head>
+    <body>
+        <h1>Employee Management</h1>
+        <table>
+            <tr>
+                <th> ID</th>
+                <th>Name</th>
+                <th>Job</th>
+                <th>Salary</th>
+                <th>DeptId</th>
+            </tr>
+
+            @foreach(var emp in Model){
+                <tr>
+                    <td>@emp.Id</td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Job</td>
+                    <td>@emp.Sal</td>
+                    <td>@emp.DeptNo</td>
+                </tr>    
+            }
+        </table>
+
+        <div>
+            <a href="/Home/Register">Add your new Workforce Hero</a>
+        </div>
+    </body>
+</html>
