@@ -20,12 +20,12 @@ namespace api.model
 //--------------------------------------------------------------------------------------------------------------------------------
 
 // ----------------------------------------Display All Employee By Department Number-----------------------------------------------------------------
-        public void DisplayAllEmployees(decimal deptId){
+        public IEnumerable<WorkforceHero> DisplayAllEmployees(decimal deptId){
             using var context = new EfDbContext();
             var Dept = context.Departments.Include(d=>d.Employees).FirstOrDefault(d=>d.Id == deptId);
-            foreach (var item in Dept.Employees){
-                Console.WriteLine($"{item.Id,-5} | {item.Name,-10} | {item.Job,-10} | {item.mgr,-5} | {item.Sal,-8:C} | {item.Comm,-8} | {item.HireDate:yyyy-MM-dd} | {item.DepartmentId,-5}");
-            }
+            
+            var result = Dept.Employees.Select(e => new WorkforceHero(e.Id, e.Name, e.Job, e.Sal, e.DepartmentId));
+            return result.ToList();
         }
 //--------------------------------------------------------------------------------------------------------------------------------
 
@@ -33,6 +33,12 @@ namespace api.model
         public void AddEmployee(decimal deptId, decimal empno, string name, string job, decimal mgr, DateTime date, decimal salary,decimal comm){
             var contex = new EfDbContext();
             var dept = contex.Departments.Find(deptId);
+            var getEmpId=GetAllEmployees();
+            //get emp id incremeted by one from its last employee
+            var lastEmp = getEmpId.OrderByDescending(e => e.Id).FirstOrDefault();
+            if(lastEmp!=null) empno=lastEmp.Id+1;
+            else empno=1;
+
             if(dept!=null){
                 var emp = new Employee{DepartmentId = deptId, Id = empno, Name = name, Job = job, mgr = mgr, HireDate = date, Sal = salary, Comm = comm};
                 contex.Add(emp);

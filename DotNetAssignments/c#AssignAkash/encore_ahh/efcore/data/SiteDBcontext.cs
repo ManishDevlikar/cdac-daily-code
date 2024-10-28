@@ -1,8 +1,5 @@
 
-using api.entities;
-using Microsoft.EntityFrameworkCore;
-namespace api.dbcontext;
-using System.Linq;
+namespace efcore.data;
 
 public class EfDbContext : DbContext{
     public DbSet<Department> Departments { get; set; }
@@ -11,5 +8,4 @@ public class EfDbContext : DbContext{
     {
         optionsBuilder.UseSqlServer("Data Source=iitdac.met.edu;Database=Shop2;User Id=dac2;Password=Dac2@1234;Encrypt=False");
     }
-
 }

@@ -31,5 +31,14 @@ namespace api.Controllers
             model.AddEmployee(deptId, empno, name, job, mgr, date, salary,comm);
             return Ok();
         }
+
+        [HttpGet("heroes/{deptId}")]
+        public IActionResult GetEmployeesByDept(decimal deptId, EmpModel model){
+            var Heroes = model.DisplayAllEmployees(deptId);
+            if(Heroes.Any()){
+                return Ok(Heroes);
+            }
+            return NotFound();
+        }
     }
 }

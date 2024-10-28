@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "encore_ahh", "encore_ahh", "{86EFBE65-D2FC-4422-9F1D-1F30BCD355DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "efcore", "encore_ahh\efcore\efcore.csproj", "{2263D86E-9291-4BD3-839A-3A9AF703698C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2263D86E-9291-4BD3-839A-3A9AF703698C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2263D86E-9291-4BD3-839A-3A9AF703698C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2263D86E-9291-4BD3-839A-3A9AF703698C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2263D86E-9291-4BD3-839A-3A9AF703698C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2263D86E-9291-4BD3-839A-3A9AF703698C} = {86EFBE65-D2FC-4422-9F1D-1F30BCD355DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61849201-E1B1-444C-A6BC-DC3761863BB2}
+	EndGlobalSection
+EndGlobal
