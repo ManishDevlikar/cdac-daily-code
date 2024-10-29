@@ -10,12 +10,10 @@ namespace api.model
     public class EmpModel
     {
 // ----------------------------------------Display All Department-----------------------------------------------------------------
-        public void DisplayAllDepartments(){
+        public IEnumerable<Department> DisplayAllDepartments(){
             using var context = new EfDbContext();
             var Department = context.Departments.ToList();
-            foreach (var item in Department){
-                Console.WriteLine(item.Name);
-            }
+            return Department.ToList();
         }
 //--------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,7 +49,7 @@ namespace api.model
 
 
 // ----------------------------------------Insert New Department-----------------------------------------------------------------
-        public void AddDepartment(int Id,string Name,string Location){
+        public void AddDepartment(decimal Id,string Name,string Location){
             var context = new EfDbContext();
             var dept=new Department{Id=Id,Name=Name,Location=Location};
             context.Departments.Add(dept);

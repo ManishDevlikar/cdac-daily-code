@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj": {}
+    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj": {}
   },
   "projects": {
-    "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj": {
+    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj",
+        "projectUniqueName": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj",
         "projectName": "apiapp",
-        "projectPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj",
-        "packagesPath": "/home/cdac/.nuget/packages/",
-        "outputPath": "/mnt/d/daily-code/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/obj/",
+        "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/apiapp.csproj",
+        "packagesPath": "/home/manish/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/api/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cdac/.nuget/NuGet/NuGet.Config"
+          "/home/manish/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/cdac/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

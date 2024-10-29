@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using api.model;
+using api.entities;
 
 namespace api.Controllers
 {
@@ -39,6 +40,21 @@ namespace api.Controllers
                 return Ok(Heroes);
             }
             return NotFound();
+        }
+
+        [HttpGet("heroes/dept")]
+        public IActionResult GetAllDepartments(){
+            var Departments=model.DisplayAllDepartments();
+            if(Departments.Any()){
+                return Ok(Departments);
+            }
+            return NotFound();
+        }
+
+        [HttpPost("heroes/dept")]
+        public IActionResult AddDepartment([FromBody] Department department){
+            model.AddDepartment(department.Id,department.Name,department.Location);
+            return Ok();
         }
     }
 }
