@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj": {}
+    "D:\\daily-code\\cdac-daily-code\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj": {}
   },
   "projects": {
-    "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj": {
+    "D:\\daily-code\\cdac-daily-code\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj",
+        "projectUniqueName": "D:\\daily-code\\cdac-daily-code\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj",
         "projectName": "loan",
-        "projectPath": "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj",
+        "projectPath": "D:\\daily-code\\cdac-daily-code\\DotNetAssignments\\Loan2\\loanapp\\loan.csproj",
         "packagesPath": "C:\\Users\\dac37\\.nuget\\packages\\",
-        "outputPath": "D:\\ClassCode\\DotNetAssignments\\Loan2\\loanapp\\obj\\",
+        "outputPath": "D:\\daily-code\\cdac-daily-code\\DotNetAssignments\\Loan2\\loanapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dac37\\AppData\\Roaming\\NuGet\\NuGet.Config",
