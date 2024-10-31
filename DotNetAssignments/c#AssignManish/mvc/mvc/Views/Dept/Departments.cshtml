@@ -1,0 +1,32 @@
+@model IEnumerable<mvc.entities.Department>
+@* @model IEnumerable<mvc.model.Workdept>     *@
+
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>On Department Page</h1>
+
+         <h1>Departments</h1>
+        <table>
+            <tr>
+                <th> ID</th>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+
+            @foreach(var dept in Model){
+                <tr>
+                    <td>@dept.Id</td>
+                    <td>@dept.Name</td>
+                    <td>@dept.Location</td>
+                </tr>
+            }
+        </table> 
+
+            <a href="/Dept/Register">add department</a>
+
+    </body>
+</html>

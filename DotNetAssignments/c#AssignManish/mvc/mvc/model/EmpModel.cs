@@ -10,22 +10,23 @@ namespace mvc.model
     public class EmpModel
     {
 // ----------------------------------------Display All Department-----------------------------------------------------------------
-        public void DisplayAllDepartments(){
+        public IEnumerable<Department> DisplayAllDepartments(){
             using var context = new EfDbContext();
             var Department = context.Departments.ToList();
-            foreach (var item in Department){
-                Console.WriteLine(item.Name);
-            }
+            // return Department.Select(x => new Workdept(x.Id,x.Name,x.Location)).ToList();
+            return Department.ToList();
         }
 //--------------------------------------------------------------------------------------------------------------------------------
 
 // ----------------------------------------Display All Employee By Department Number-----------------------------------------------------------------
-        public void DisplayAllEmployees(decimal deptId){
+        public IEnumerable<WorkforceHero> DisplayAllEmployees(decimal deptId){
             using var context = new EfDbContext();
             var Dept = context.Departments.Include(d=>d.Employees).FirstOrDefault(d=>d.Id == deptId);
-            foreach (var item in Dept.Employees){
-                Console.WriteLine($"{item.Id,-5} | {item.Name,-10} | {item.Job,-10} | {item.mgr,-5} | {item.Sal,-8:C} | {item.Comm,-8} | {item.HireDate:yyyy-MM-dd} | {item.DepartmentId,-5}");
+            if(Dept == null){
+                return Enumerable.Empty<WorkforceHero>();
             }
+            var result = Dept.Employees.Select(e=>new WorkforceHero(e.Id, e.Name,e.Job,e.Sal, e.DepartmentId));
+            return result.ToList();
         }
 //--------------------------------------------------------------------------------------------------------------------------------
 
@@ -45,7 +46,7 @@ namespace mvc.model
 
 
 // ----------------------------------------Insert New Department-----------------------------------------------------------------
-        public void AddDepartment(int Id,string Name,string Location){
+        public void AddDepartment(decimal Id,string Name,string Location){
             var context = new EfDbContext();
             var dept=new Department{Id=Id,Name=Name,Location=Location};
             context.Departments.Add(dept);
@@ -54,23 +55,6 @@ namespace mvc.model
 
 //--------------------------------------------------------------------------------------------------------------------------------
 
-/*
-public IEnumerable<Visitor> GetVisitors()
-    {
-        using var site = new SiteDbContext();
-        var selection = from t in site.Travelers
-                        where t.Id.Length > 3
-                        select new Visitor 
-                        {
-                            Name = t.Id,
-                            Visits = t.Tours.Count,
-                            Recent = t.Tours.Max(e => e.Checkin),
-                            Stars = new string('*', t.Rating)
-                        };
-        return selection.ToList();
-    }
-
-*/
 
 // -----------------------------------------Fetch All Employees-----------------------------------------------------------------
        public IEnumerable<WorkforceHero> GetAllEmployees(){

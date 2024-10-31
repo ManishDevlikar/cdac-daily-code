@@ -1,0 +1,51 @@
+@model mvc.model.DeptEmpView;   
+
+    <html>
+        <head>
+        </head>
+        <body>
+             <div>
+            <form method="get" action="/Dept/EmployeeByDept">
+             <label for="deptId">DeptId</label>   
+             <input type="number"  placeholder="Enter deptno" name="deptId" />
+             <input type="submit" value="Show Employees"/>
+            </form>
+        </div>
+
+        <h2>Employees in Department @Model.DeptId</h2>
+
+        <table>
+        <thead>
+            <tr>
+                <th>Employee ID</th>
+                <th>Name</th>
+                <th>Job</th>
+                <th>Salary</th>
+                <th>Department ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Employees != null && Model.Employees.Any())
+            {
+                @foreach (var employee in Model.Employees)
+                {
+                    <tr>
+                        <td>@employee.Id</td>
+                        <td>@employee.Name</td>
+                        <td>@employee.Job</td>
+                        <td>@employee.Sal</td>
+                        <td>@employee.DeptNo</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">No employees found for Department ID @Model.DeptId.</td>
+                </tr>
+            }
+        </tbody>
+        <a href="/Home/Index"></a>
+    </table>
+        </body>
+    </html>
