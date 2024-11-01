@@ -2,6 +2,7 @@ using DemoApp.Data.Shopping;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Threading.Tasks;
 
 namespace DemoApp.PageModels;
 

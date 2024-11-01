@@ -1,0 +1,29 @@
+@page
+@model razor.pageModel.DepartmentModel
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1>All Departments</h1>
+        <table border="1">
+            <tr>
+                <th>DeptId</th>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+            @foreach(var dept in Model.departments){
+                <tr>
+                    <td>@dept.Id</td>
+                    <td>@dept.Name</td>
+                    <td>@dept.Location</td>
+                </tr>
+            }
+        </table>
+        <a asp-page="EmployeeList">All Employees</a>
+        <a asp-page-handler="addDepartment">Add New Department</a>
+    </body>
+</html>

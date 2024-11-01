@@ -1,0 +1,46 @@
+@page
+@model razor.pageModel.DepartmentModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<html>
+    <head>
+        
+    </head>
+
+    <body>
+            <h1>Employee From Department</h1>
+        <form method="post" asp-page-handler="EmployeeByDepartment">
+            <div>
+                <label for="deptId">Department:</label>
+                <input type="number" placeholder="Enter department number" id="deptId" name="deptId" />
+            </div>
+            <button type="submit">submit</button>
+        </form>
+
+    @* @if(Model.workforceHeroes!=null){ *@
+
+        <table>
+            <thead>
+                <tr>
+                    <th>EmpId</th>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Salary</th>
+                    <th>DeptNo</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var employee in Model.workforceHeroes){
+                    <tr>
+                        <td>@employee.Id</td>
+                        <td>@employee.Name</td>
+                        <td>@employee.Job</td>
+                        <td>@employee.Sal</td>
+                        <td>@employee.DeptNo</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    @* } *@
+    </body>
+</html>

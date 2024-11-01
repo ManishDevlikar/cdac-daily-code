@@ -1,0 +1,33 @@
+@page
+@model razor.pageModel.EmployeeListModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Employee List</h1>
+        <table border="1">
+            <tr>
+                <th>EmpId</th>
+                <th>Name</th>
+                <th>Job</th>
+                <th>Salary</th>
+                <th>DeptNo</th>
+            </tr>
+            @foreach(var employee in Model.employees){
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.Job</td>
+                    <td>@employee.Sal</td>
+                    <td>@employee.DeptNo</td>
+                </tr>
+            }
+        </table> 
+        <a asp-page-handler="addEmployee">Add new Employee</a> 
+        <a asp-page="DepartmentList" asp-page-handler="AllDepartment">See Departments</a> 
+        <a asp-page="EmployeeByDept" asp-page-handler="EmployeeByDepartment">See Employee By Dept</a>
+    </body>
+</html>

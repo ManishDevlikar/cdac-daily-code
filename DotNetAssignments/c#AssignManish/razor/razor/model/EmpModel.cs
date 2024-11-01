@@ -4,89 +4,100 @@ using razor.dbcontext;
 using Microsoft.EntityFrameworkCore;
 using razor.entities;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace razor.model
 {
     public class EmpModel
     {
 // ----------------------------------------Display All Department-----------------------------------------------------------------
-        public void DisplayAllDepartments(){
+        public async Task<List<Department>> DisplayAllDepartments(){
             using var context = new EfDbContext();
-            var Department = context.Departments.ToList();
-            foreach (var item in Department){
-                Console.WriteLine(item.Name);
-            }
+            var Department = await context.Departments.ToListAsync();
+            return Department;
         }
 //--------------------------------------------------------------------------------------------------------------------------------
 
 // ----------------------------------------Display All Employee By Department Number-----------------------------------------------------------------
-        public void DisplayAllEmployees(decimal deptId){
+        public async Task<List<WorkforceHero>> DisplayAllEmployees(decimal deptId){
             using var context = new EfDbContext();
-            var Dept = context.Departments.Include(d=>d.Employees).FirstOrDefault(d=>d.Id == deptId);
-            foreach (var item in Dept.Employees){
-                Console.WriteLine($"{item.Id,-5} | {item.Name,-10} | {item.Job,-10} | {item.mgr,-5} | {item.Sal,-8:C} | {item.Comm,-8} | {item.HireDate:yyyy-MM-dd} | {item.DepartmentId,-5}");
-            }
+            var Dept = await context.Departments.Include(d=>d.Employees).FirstOrDefaultAsync(d=>d.Id == deptId);
+            return Dept?.Employees.Select(e=> new WorkforceHero{
+                    Id = e.Id,
+                    Name = e.Name,
+                    Job = e.Job,
+                    Sal = e.Sal,
+                    DeptNo = e.DepartmentId
+            }).ToList()?? new List<WorkforceHero>();
         }
 //--------------------------------------------------------------------------------------------------------------------------------
 
 // ----------------------------------------Insert New Employee-----------------------------------------------------------------
-        public void AddEmployee(decimal deptId, decimal empno, string name, string job, decimal mgr, DateTime date, decimal salary,decimal comm){
-            var contex = new EfDbContext();
-            var dept = contex.Departments.Find(deptId);
-            if(dept!=null){
-                var emp = new Employee{DepartmentId = deptId, Id = empno, Name = name, Job = job, mgr = mgr, HireDate = date, Sal = salary, Comm = comm};
-                contex.Add(emp);
-                contex.SaveChanges();
-            }else{
-                Console.WriteLine("Department not found");
-            }
+       public async Task AddEmployee(decimal deptId, string name, string job, decimal mgr, DateTime date, decimal salary,decimal comm){
+            var context = new EfDbContext();
+            var dept = await context.Departments.FindAsync(deptId);
+
+            if (dept != null)
+            {
+            context.ChangeTracker.Clear(); 
+            var allEmp = await GetAllEmployeesAsync();  
+            // Get the last employee by ID and increment
+            var lastEmp = allEmp.OrderByDescending(e => e.Id).FirstOrDefault();
+            var empno = lastEmp != null ? lastEmp.Id + 1 : 1;
+
+            // Create and add new employee
+            var emp = new Employee
+            {
+                DepartmentId = deptId,
+                Id = empno,
+                Name = name,
+                Job = job,
+                mgr = mgr,
+                HireDate = date,
+                Sal = salary,
+                Comm = comm
+            };
+             context.Add(emp);
+             await context.SaveChangesAsync();
         }
+        else
+        {
+            Console.WriteLine("Department not found");
+        }
+        }
+
+
 //--------------------------------------------------------------------------------------------------------------------------------
 
 
 // ----------------------------------------Insert New Department-----------------------------------------------------------------
-        public void AddDepartment(int Id,string Name,string Location){
+        public async Task AddDepartment(decimal Id,string Name,string Location){
             var context = new EfDbContext();
             var dept=new Department{Id=Id,Name=Name,Location=Location};
             context.Departments.Add(dept);
-            context.SaveChanges();
+           await context.SaveChangesAsync();
         }
 
 //--------------------------------------------------------------------------------------------------------------------------------
 
-/*
-public IEnumerable<Visitor> GetVisitors()
-    {
-        using var site = new SiteDbContext();
-        var selection = from t in site.Travelers
-                        where t.Id.Length > 3
-                        select new Visitor 
-                        {
-                            Name = t.Id,
-                            Visits = t.Tours.Count,
-                            Recent = t.Tours.Max(e => e.Checkin),
-                            Stars = new string('*', t.Rating)
-                        };
-        return selection.ToList();
-    }
-
-*/
 
 // -----------------------------------------Fetch All Employees-----------------------------------------------------------------
-       public IEnumerable<WorkforceHero> GetAllEmployees(){
-            var context = new EfDbContext();
-            var departments=context.Departments.Include(d=>d.Employees).ToList();
 
+     public async Task<IEnumerable<WorkforceHero>> GetAllEmployeesAsync()
+    {
+        using var context = new EfDbContext();
+        var departments = await context.Departments.Include(d => d.Employees).ToListAsync(); 
 
-            var employees = departments.SelectMany(department=>department.Employees.Select(emp=> new WorkforceHero(
-                Id:emp.Id,
-                Name:emp.Name,
-                Job:emp.Job,
-                Sal:emp.Sal,
-                DeptNo:emp.DepartmentId
-            )));
-            return employees.ToList();
-       }
+        var employees = departments.SelectMany(department => department.Employees.Select(emp => new WorkforceHero(
+            Id: emp.Id,
+            Name: emp.Name,
+            Job: emp.Job,
+            Sal: emp.Sal,
+            DeptNo: emp.DepartmentId
+        )));
+
+        return employees; 
+    }
 //--------------------------------------------------------------------------------------------------------------------------------
     }
 }

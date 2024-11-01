@@ -1,0 +1,31 @@
+@page
+@model razor.pageModel.DepartmentModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1>Add Department</h1>
+        <form method="post" asp-page-handler="addNewDepartment">
+             <div>
+                <label for="id">Department ID:</label>
+                <input type="number" id="id" name="id" required />
+            </div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required />
+            </div>
+            <div>
+                <button type="submit">Add Department</button>
+            </div>
+        </form>
+        <a asp-page="DepartmentList" asp-page-handler="allDepartment">See All Departments</a>
+    </body>
+</html>

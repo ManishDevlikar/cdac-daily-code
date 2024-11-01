@@ -1,0 +1,4 @@
+{
+    "remote.WSL.debug": false,
+    "terminal.integrated.useWslProfiles": true
+}
