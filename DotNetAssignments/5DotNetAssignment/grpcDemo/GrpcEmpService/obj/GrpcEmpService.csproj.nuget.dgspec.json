@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/grpcDemo/GrpcEmpService/GrpcEmpService.csproj": {}
+  },
+  "projects": {
+    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/grpcDemo/GrpcEmpService/GrpcEmpService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/grpcDemo/GrpcEmpService/GrpcEmpService.csproj",
+        "projectName": "GrpcEmpService",
+        "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/grpcDemo/GrpcEmpService/GrpcEmpService.csproj",
+        "packagesPath": "/home/manish/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/grpcDemo/GrpcEmpService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/manish/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.57.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

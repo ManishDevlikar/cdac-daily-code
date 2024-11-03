@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/razor/razor/razor.csproj": {}
+    "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\5DotNetAssignment\\razor\\razor\\razor.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/razor/razor/razor.csproj": {
+    "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\5DotNetAssignment\\razor\\razor\\razor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/razor/razor/razor.csproj",
+        "projectUniqueName": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\5DotNetAssignment\\razor\\razor\\razor.csproj",
         "projectName": "razor",
-        "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/razor/razor/razor.csproj",
-        "packagesPath": "/home/manish/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/razor/razor/obj/",
+        "projectPath": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\5DotNetAssignment\\razor\\razor\\razor.csproj",
+        "packagesPath": "C:\\Users\\91737\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\5DotNetAssignment\\razor\\razor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/manish/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\91737\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -53,7 +53,7 @@ namespace efcore.model
                Console.WriteLine("Employees Are :");
                
                foreach(var emp in department.Employees){
-                Console.WriteLine($"{emp.Id,-5} | {emp.Name,-10} | {emp.Job,-10} | {emp.mgr,-5} | {emp.Sal,-8:C} | {emp.Comm,-8} | {emp.HireDate:yyyy-MM-dd} | {emp.DepartmentId,-5}");
+                Console.WriteLine($"{emp.Id,-5} | {emp.Name,-10} | {emp.Job,-10} | {emp.mgr,-5}  | {emp.Sal,-8:C} | {emp.Comm,-8} | {emp.HireDate:yyyy-MM-dd} | {emp.DepartmentId,-5}");
                }
                Console.WriteLine("----------------------------------------------------------"); 
             }

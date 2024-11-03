@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5QmSqM4bxSzpdxKH41cfTPa0mNKU1C+jCqzmrh6T3zM=",
+  "Source": "GrpcEmpService",
+  "BasePath": "_content/GrpcEmpService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

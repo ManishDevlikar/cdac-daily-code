@@ -9,31 +9,31 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = razor
 build_property.RootNamespace = razor
-build_property.ProjectDir = /mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/razor/razor/
+build_property.ProjectDir = C:\Users\91737\OneDrive\Desktop\cdac-daily\cdac-daily-code\DotNetAssignments\5DotNetAssignment\razor\razor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c#AssignManish/razor/razor
+build_property.MSBuildProjectDirectory = C:\Users\91737\OneDrive\Desktop\cdac-daily\cdac-daily-code\DotNetAssignments\5DotNetAssignment\razor\razor
 build_property._RazorSourceGeneratorDebug = 
 
-[/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c\#AssignManish/razor/razor/pages/AddDepartment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = cGFnZXMvQWRkRGVwYXJ0bWVudC5jc2h0bWw=
+[C:/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/razor/razor/pages/AddDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = cGFnZXNcQWRkRGVwYXJ0bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c\#AssignManish/razor/razor/pages/AddEmployee.cshtml]
-build_metadata.AdditionalFiles.TargetPath = cGFnZXMvQWRkRW1wbG95ZWUuY3NodG1s
+[C:/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/razor/razor/pages/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = cGFnZXNcQWRkRW1wbG95ZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c\#AssignManish/razor/razor/pages/DepartmentList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = cGFnZXMvRGVwYXJ0bWVudExpc3QuY3NodG1s
+[C:/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/razor/razor/pages/DepartmentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = cGFnZXNcRGVwYXJ0bWVudExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c\#AssignManish/razor/razor/pages/EmployeeByDept.cshtml]
-build_metadata.AdditionalFiles.TargetPath = cGFnZXMvRW1wbG95ZWVCeURlcHQuY3NodG1s
+[C:/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/razor/razor/pages/EmployeeByDept.cshtml]
+build_metadata.AdditionalFiles.TargetPath = cGFnZXNcRW1wbG95ZWVCeURlcHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/c/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/c\#AssignManish/razor/razor/pages/EmployeeList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = cGFnZXMvRW1wbG95ZWVMaXN0LmNzaHRtbA==
+[C:/Users/91737/OneDrive/Desktop/cdac-daily/cdac-daily-code/DotNetAssignments/5DotNetAssignment/razor/razor/pages/EmployeeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = cGFnZXNcRW1wbG95ZWVMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
