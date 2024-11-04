@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "M6+sNwPrbJywmUE2bR3qMEO0OUgHsfaVaJi/vaeSIIPYTYHRoxfh3hPsYE9zYQc6hS9EES18TfrXiS7/wQzqhA==",
+  "dgSpecHash": "On7LITXHnZI=",
   "success": true,
-  "projectFilePath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/tourslib.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\MET_Tours\\MetTours\\tourslib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\91737\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\91737\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\91737\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

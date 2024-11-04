@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ClassCode\\DotNetAssignments\\Patient\\Patient.csproj": {}
+    "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\Patient\\Patient.csproj": {}
   },
   "projects": {
-    "D:\\ClassCode\\DotNetAssignments\\Patient\\Patient.csproj": {
+    "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\Patient\\Patient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClassCode\\DotNetAssignments\\Patient\\Patient.csproj",
+        "projectUniqueName": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\Patient\\Patient.csproj",
         "projectName": "Patient",
-        "projectPath": "D:\\ClassCode\\DotNetAssignments\\Patient\\Patient.csproj",
-        "packagesPath": "C:\\Users\\dac37\\.nuget\\packages\\",
-        "outputPath": "D:\\ClassCode\\DotNetAssignments\\Patient\\obj\\",
+        "projectPath": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\Patient\\Patient.csproj",
+        "packagesPath": "C:\\Users\\91737\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\Patient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dac37\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\91737\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,12 +53,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

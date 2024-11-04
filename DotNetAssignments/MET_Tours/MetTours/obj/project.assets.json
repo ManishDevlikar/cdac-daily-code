@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/manish/.nuget/packages/": {}
+    "C:\\Users\\91737\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/tourslib.csproj",
+      "projectUniqueName": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\MET_Tours\\MetTours\\tourslib.csproj",
       "projectName": "tourslib",
-      "projectPath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/tourslib.csproj",
-      "packagesPath": "/home/manish/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/91737/OneDrive/Desktop/cadc_daily/cdac-daily-code/DotNetAssignments/MET_Tours/MetTours/obj/",
+      "projectPath": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\MET_Tours\\MetTours\\tourslib.csproj",
+      "packagesPath": "C:\\Users\\91737\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\91737\\OneDrive\\Desktop\\cdac-daily\\cdac-daily-code\\DotNetAssignments\\MET_Tours\\MetTours\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/manish/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\91737\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -54,12 +59,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
