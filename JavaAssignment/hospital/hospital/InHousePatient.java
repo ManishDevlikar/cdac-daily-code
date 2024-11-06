@@ -11,7 +11,7 @@ public class InHousePatient extends Patient{
     @Override
     public double getBill(){
         double totalAmoutWithoutDiscount=super.getBill();
-        double totalDiscout=totalAmoutWithoutDiscount>=5000?totalAmoutWithoutDiscount*0.05:totalAmoutWithoutDiscount*1;
+        double totalDiscout=totalAmoutWithoutDiscount>=5000?totalAmoutWithoutDiscount*0.05:0;
         System.out.println("Your discount is :"+totalDiscout);
         return totalAmoutWithoutDiscount-totalDiscout;
     }
