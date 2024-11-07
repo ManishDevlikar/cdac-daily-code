@@ -5,7 +5,7 @@ enum BedType {
     STANDARD(350),
     LUXURY(500);
 
-    private final int cost;
+    public final int cost;
     
     BedType(int cost) {
         this.cost = cost;

@@ -42,5 +42,16 @@
   787  ls
   788  cd Reflection/
   789  ls
+  790  history > ../../../ls
+  791  history > ../../../cmd06-11-24-morning.txt
+  792  cd ../../../
+  793  ls
+  794  cd Core/
+  795  LS
+  796  ls
+  797  cd Runtime/
+  798  ls
+  799  cd Reflection/
+  800  ls
   801  cd demo2
  

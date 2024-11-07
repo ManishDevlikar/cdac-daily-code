@@ -10,6 +10,7 @@ public class HomeLoan {
         return common(amount, period) - 1;
     }
 
+    @MaxDuration(12)
     public float welfare(double amount, int period) {
         return common(amount, period) / 2;
     }
