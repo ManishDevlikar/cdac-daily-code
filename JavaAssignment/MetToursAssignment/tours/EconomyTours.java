@@ -28,15 +28,14 @@ public class EconomyTours {
         double totalRent= (500*days)*noOfPersons;
         double daysDiscountedRent=(days>6)?totalRent-(100*days)*noOfPersons:totalRent;
         double personDiscountedRent=(noOfPersons>=4)?totalRent-(100*days)*noOfPersons:totalRent;
-        double finalRent=0;
         if(days>6 && noOfPersons>=4)
-            return finalRent-(daysDiscountedRent+personDiscountedRent);
+            return totalRent-(daysDiscountedRent+personDiscountedRent);
         else if(days>6)
-            return finalRent-daysDiscountedRent;
+            return totalRent-daysDiscountedRent;
         else if(noOfPersons>=4)
-            return finalRent-personDiscountedRent;
+            return totalRent-personDiscountedRent;
         else 
-            return finalRent;
+            return totalRent;
     }
 
 }
