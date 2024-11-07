@@ -10,6 +10,6 @@ public class InHousePatient extends CommonPatient {
 
     @Override
     public double getBillAmount() {
-        
+        return 0;
     }
 }
