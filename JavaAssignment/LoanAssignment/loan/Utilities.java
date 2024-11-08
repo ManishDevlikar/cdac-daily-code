@@ -1,6 +1,6 @@
 package loan;
 
-public class utilites {
+public class Utilities {
     
     public static double getTotalDiscount(Loan... discountables) {
         double totalDiscount = 0;
