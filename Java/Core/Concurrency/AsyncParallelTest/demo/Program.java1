@@ -10,7 +10,6 @@ class Program {
         public long compute(int first, int last) {
             start = System.currentTimeMillis();
             return IntStream.range(first, last + 1)
-                .parallel() //split stream into separate streams which can be processed in parallel 
                 .mapToLong(Machine::doWork)
                 .sum();
         }
