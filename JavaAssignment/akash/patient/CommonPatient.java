@@ -40,7 +40,7 @@ public class CommonPatient {
     }
 
     public BedType getBedType() {
-        return bedType;
+        return this.bedType;
     }
 
     public void setBedType(BedType bedType) {
@@ -51,32 +51,25 @@ public class CommonPatient {
         System.out.println("Do you want to change your bed type? Y/N");
         Scanner sc = new Scanner(System.in);
         String input = sc.next().toUpperCase();
-        double bill = 0;
         if (input.equals("Y")) {
             System.out.println("Enter your choice");
             System.out.println("1-> select General Bed");
             System.out.println("2-> select VIP Bed");
             System.out.println("3-> select ICU Bed");
-            Scanner scanner =new Scanner(System.in);
             int choice=sc.nextInt();
-            double totalAmout=0;
+            double totalAmount=0;
 
             switch (choice) {
-                case 1:
-                    totalAmout = noOfDays * BedType.ECONOMY.getCost();
-                    break;
-                case 2:
-                    totalAmout = noOfDays * BedType.STANDARD.getCost();
-                    break;
-                case 3:
-                    totalAmout = noOfDays * BedType.LUXURY.getCost();
-                    break;
-                default:
+                case 1 -> totalAmount = noOfDays * BedType.ECONOMY.getCost();
+                case 2 -> totalAmount = noOfDays * BedType.STANDARD.getCost();
+                case 3 -> totalAmount = noOfDays * BedType.LUXURY.getCost();
+                default -> {
                     System.out.println("Invalid choice");
                     return 0;
+                }
             }
 
-            return totalAmout;
+            return totalAmount;
         }
         else if (input.equals("N")){
             return this.noOfDays * this.bedType.getCost();
