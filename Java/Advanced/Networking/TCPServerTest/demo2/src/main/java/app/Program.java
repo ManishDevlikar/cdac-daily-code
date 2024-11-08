@@ -20,7 +20,9 @@ public class Program {
                 //Step 2
                 var client = listener.accept();
                 //Step 3 and 4
-                communicate(client);
+                //a virtual thread can be reused to perform another task
+                //when its original task is blocked by an i/o operation
+                Thread.ofVirtual().start(() -> communicate(client));
             }
         }
     }
