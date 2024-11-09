@@ -26,8 +26,8 @@ public class EconomyTours {
 
     public double getDaysRent(int days,int noOfPersons){
         double totalRent= (500*days)*noOfPersons;
-        double daysDiscountedRent=(days>6)?totalRent-(100*days)*noOfPersons:totalRent;
-        double personDiscountedRent=(noOfPersons>=4)?totalRent-(100*days)*noOfPersons:totalRent;
+        double daysDiscountedRent=(days>6)?(100*days)*noOfPersons:0;
+        double personDiscountedRent=(noOfPersons>=4)?(100*days)*noOfPersons:0;
         if(days>6 && noOfPersons>=4)
             return totalRent-(daysDiscountedRent+personDiscountedRent);
         else if(days>6)

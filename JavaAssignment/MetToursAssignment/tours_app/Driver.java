@@ -2,7 +2,6 @@ package tours_app;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.reflect.Method;
-
 import tours.*;
 public class Driver {
     public static void main(String[] args)throws Throwable {
@@ -17,12 +16,18 @@ public class Driver {
         
         LuxuryTax luxuryTax = c_class.getAnnotation(LuxuryTax.class);
 
-        int tax = luxuryTax!=null?luxuryTax.value():8;
+        double tax = luxuryTax!=null?luxuryTax.value()/100.0:0.08;
 
         System.out.println("Tax: "+tax);
    
         MethodHandle methodHandle = MethodHandles.lookup().unreflect(m_method).bindTo(o_object);
         
+        double total=(double)methodHandle.invokeExact(days,noOfPersons);
+        System.out.println("total Rent: "+total);
+
+        double finalTotal = total+=total*tax;
+
+        System.out.println("Total Rent with tax: "+finalTotal);
     }
 }
 
