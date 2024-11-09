@@ -5,6 +5,11 @@ public class Premium {
     private int noOfPerson;
     private int days;
 
+    public Premium(int noOfPerson, int days) {
+        this.noOfPerson = noOfPerson;
+        this.days = days;
+    }
+
     public void setNoOfPerson(int noOfPerson) {
         this.noOfPerson = noOfPerson;
     }
@@ -21,25 +26,28 @@ public class Premium {
         return days;
     }
 
-    public double getRentCommon() {
+    @LuxuryTax(10)
+    public double getRentCommon(int noOfPerson, int days) {
         if(days >= 6 || noOfPerson >= 4) {
-            return 1100 * getDays() * getNoOfPerson();
+            return 1100 * getDays() * getNoOfPerson() / getDays();
         }
-        return 1200 * getDays() * getNoOfPerson();
+        return 1200 * getDays() * getNoOfPerson() / getDays();
     }
 
-    public double getRentSenior() {
+    @LuxuryTax(10)
+    public double getRentSenior(int noOfPerson, int days) {
         if(days >= 6 || noOfPerson >= 4) {
-            return 1000 * getDays() * getNoOfPerson();
+            return 1000 * getDays() * getNoOfPerson() / getDays();
     }
-    return 1100 * getDays() * getNoOfPerson();
+    return 1100 * getDays() * getNoOfPerson() / getDays();
     }
 
-    public double getRentWomen() {
+    @LuxuryTax(10)
+    public double getRentWomen(int noOfPerson, int days) {
         if(days >= 6 || noOfPerson >= 4) {
-            return 900 * getDays() * getNoOfPerson();
+            return 900 * getDays() * getNoOfPerson() / getDays();
     }
-    return 1000 * getDays() * getNoOfPerson();
+    return 1000 * getDays() * getNoOfPerson() / getDays();
     }
 
 

@@ -5,6 +5,11 @@ public class Economy{
     private int noOfPerson;
     private int days;
 
+    public Economy(int noOfPerson, int days) {
+        this.noOfPerson = noOfPerson;
+        this.days = days;
+    }
+
     public void setNoOfPerson(int noOfPerson) {
         this.noOfPerson = noOfPerson;
     }
@@ -21,12 +26,13 @@ public class Economy{
         return days;
     }
 
-    public double getDaysRent() {
+        @LuxuryTax    
+        public double getDaysRent(int noOfPerson, int days) {
         if(days >= 6 || noOfPerson >= 4) {
-        return 400 * getNoOfPerson() * getDays();
+        return 400 * getNoOfPerson() * getDays() / getDays();
         }
         
-        return 500 * getNoOfPerson() * getDays();
+        return 500 * getNoOfPerson() * getDays() / getDays();
         
     }
 
