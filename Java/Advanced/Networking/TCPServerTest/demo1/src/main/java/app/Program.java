@@ -29,11 +29,16 @@ public class Program {
         try{
             try{
                 //Step 3
+                // to read the inputs from client
                 var receiver = connection.getInputStream();
                 var reader = new BufferedReader(new InputStreamReader(receiver));
+                // to sends the data to the client
                 var sender = connection.getOutputStream();
+                // setting auto flush() -> true;
                 var writer = new PrintWriter(sender, true);
+                // sending welcome msg to client
                 writer.println("Welcome to EviTek computers.");
+                // reading the inputs from client
                 String item = reader.readLine();
                 String info = model.getItemInfo(item);
                 if(info != null)
