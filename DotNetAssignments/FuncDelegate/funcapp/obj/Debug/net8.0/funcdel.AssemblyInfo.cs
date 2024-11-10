@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("funcdel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a56440dac98834d19c991632bc99fb54da8f4f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32799fc84ff6d5476365a8676495eebb595fbe92")]
 [assembly: System.Reflection.AssemblyProductAttribute("funcdel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("funcdel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

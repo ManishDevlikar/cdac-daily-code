@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/funcdel.csproj": {}
+    "C:\\Users\\91737\\OneDrive\\Desktop\\daily_code\\cdac-daily-code\\DotNetAssignments\\FuncDelegate\\funcapp\\funcdel.csproj": {}
   },
   "projects": {
-    "/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/funcdel.csproj": {
+    "C:\\Users\\91737\\OneDrive\\Desktop\\daily_code\\cdac-daily-code\\DotNetAssignments\\FuncDelegate\\funcapp\\funcdel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/funcdel.csproj",
+        "projectUniqueName": "C:\\Users\\91737\\OneDrive\\Desktop\\daily_code\\cdac-daily-code\\DotNetAssignments\\FuncDelegate\\funcapp\\funcdel.csproj",
         "projectName": "funcdel",
-        "projectPath": "/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/funcdel.csproj",
-        "packagesPath": "/home/cdac/.nuget/packages/",
-        "outputPath": "/mnt/d/ClassCode/DotNetAssignments/FuncDelegate/funcapp/obj/",
+        "projectPath": "C:\\Users\\91737\\OneDrive\\Desktop\\daily_code\\cdac-daily-code\\DotNetAssignments\\FuncDelegate\\funcapp\\funcdel.csproj",
+        "packagesPath": "C:\\Users\\91737\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91737\\OneDrive\\Desktop\\daily_code\\cdac-daily-code\\DotNetAssignments\\FuncDelegate\\funcapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cdac/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\91737\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/cdac/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
