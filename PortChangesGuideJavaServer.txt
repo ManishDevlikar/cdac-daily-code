@@ -1,0 +1,53 @@
+To Change port of Tomcat
+As its conflicting with Jenkins
+Do the following
+1) Open Ubuntu
+2) Go to home directory by typing cd ~
+3) U must be in home\cdac
+4) In home directory open server.xml in apache
+   Tomcat directory 
+   at  apache-tomcat-10.1.18/conf/server.xml
+   using vi
+   ie vi  apache-tomcat-10.1.18/conf/server.xml
+5) Change following entry in this file
+   Make port as 8086
+   
+   <Connector port="8086" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443"
+               maxParameterCount="1000"
+               />
+6) Save and Quit vi
+7) Start server again
+8) Check in browser
+   http://localhost:8086/
+   Tomcat Page must open
+=====================================================
+
+To change port of Glassfish
+Do the following:
+ 
+To Change port of Tomcat
+As its conflicting with Jenkins
+Do the following
+1) Open Ubuntu
+2) Go to home directory by typing cd ~
+3) U must be in home\cdac
+4) In home directory open domain.xml in Glassfish
+   directory 
+   at  glassfish7 folder
+   using vi
+   ie 
+   vi glassfish7/glassfish/domains/domain1/config/domain.xml
+5) Change following entry in this file
+   Make port as 8086
+      <network-listeners>
+          <network-listener protocol="http-listener-1" port="8086" name="http-listener-1" thread-pool="http-thread-pool" transport="tcp"></network-listener>
+      </network-listeners>   
+   
+6) Save and Quit vi
+7) Start server again
+8) Check in browser
+   http://localhost:8086/
+   Glassfish Page must open
+     
