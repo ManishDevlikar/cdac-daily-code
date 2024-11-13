@@ -15,7 +15,6 @@ public class CountingServlet extends HttpServlet {
     private AtomicInteger greetings = new AtomicInteger();
 
     @Override
-    
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String person = request.getParameter("user");
         if(person.length() == 0)
