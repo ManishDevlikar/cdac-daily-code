@@ -1,0 +1,50 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid white;
+    width: 90%;
+    margin: auto;
+}
+
+form{
+    margin: 5rem auto 5rem auto;
+    width: 60%;
+}
+
+form div{
+    width: 100%;
+    margin: 0.4rem;
+}
+form div input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+}
+
+form label{
+    font-size: 1.2rem;
+}
+
+#center-btn-div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* text-align: center; */
+ /* align-self: center; */
+}
+
+form div input[type="submit"]{
+    width: 15vw;
+    padding: 0.5rem;
+    color: #212121;
+    background-color: rgb(197, 69, 69);
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 2rem;
+    /* align-self: center; */
+}
