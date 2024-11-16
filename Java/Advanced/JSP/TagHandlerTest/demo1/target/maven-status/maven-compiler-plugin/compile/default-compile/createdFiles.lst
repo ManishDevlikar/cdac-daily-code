@@ -1,6 +1,2 @@
 app/components/ShopControllerServlet.class
-app/components/OrderEntry.class
-app/components/InvoiceModelTag.class
-app/components/LoginModelBean.class
 app/components/ClockTag.class
-app/components/ShopDB.class
