@@ -49,36 +49,37 @@
                 %>    
             </tbody>
         </table>
-
-        <form action="/emp" method="post">
-            <h3>Enter employee details to insert</h3>
-            <div>
-                <label for="ename">Employee Name:</label>
-                <input type="text" id="ename" name="ename" required>
-            </div>
-            <div>
-                <label for="job">Employee Job:</label>
-                <input type="text" id="job" name="job" required>
-            </div>
-            <div>
-                <label for="mgr">Employee mgr:</label>
-                <input type="number" id="mgr" name="mgr" required>
-            </div>
-            <div>
-                <label for="sal">sal:</label>
-                <input type="number" id="sal" name="sal" required>
-            </div>
-            <div>
-                <label for="comm">comm:</label>
-                <input type="number" id="comm" name="comm" required>
-            </div>
-            <div>
-                <label for="deptno">deptno:</label>
-                <input type="number" id="deptno" name="deptno" required>
-            </div>
-            <div id="center-btn-div">
-                <input type="submit" value="submit">
-            </div>
+<div id="form-div">
+    <form action="/emp" method="post">
+        <h3>Enter employee details to insert</h3>
+        <div>
+            <label for="ename">Employee Name:</label>
+            <input type="text" id="ename" name="ename" required>
+        </div>
+        <div>
+            <label for="job">Employee Job:</label>
+            <input type="text" id="job" name="job" required>
+        </div>
+        <div>
+            <label for="mgr">Employee mgr:</label>
+            <input type="number" id="mgr" name="mgr" required>
+        </div>
+        <div>
+            <label for="sal">sal:</label>
+            <input type="number" id="sal" name="sal" required>
+        </div>
+        <div>
+            <label for="comm">comm:</label>
+            <input type="number" id="comm" name="comm" required>
+        </div>
+        <div>
+            <label for="deptno">deptno:</label>
+            <input type="number" id="deptno" name="deptno" required>
+        </div>
+        <div id="center-btn-div">
+            <input type="submit" value="submit">
+        </div>
         </form>
+    </div>
     </body>
-</html>
+    </html>

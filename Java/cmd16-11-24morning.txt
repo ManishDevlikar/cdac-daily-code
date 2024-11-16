@@ -1,0 +1,5 @@
+    1  cd Samples/Java/Advanced/JSP/TagHandlerTest/demo1/
+    2  code .
+    3  mysql -h dac-faculty.local -u root -proot -D sales
+    4  ./run 
+    5  history > ../../../../cmd16-11-24morning.txt 

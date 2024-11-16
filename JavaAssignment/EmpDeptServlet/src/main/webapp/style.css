@@ -48,3 +48,8 @@ form div input[type="submit"]{
     margin-top: 2rem;
     /* align-self: center; */
 }
+
+#form-div{
+    width: 90%;
+    background-color: rgb(172, 35, 35);
+}
