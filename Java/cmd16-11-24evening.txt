@@ -1,0 +1,12 @@
+    1  cd JSP/TagHandlerTest/
+    2  ls
+    3  unzip -d demo2 ../../maven-projects/tomcat-webapp.zip 
+    4  cd demo2/
+    5  cp -r ../../../ServletAPI/WebServletTest/demo2/src/main/java/app/tourism/ src/main/java/app/
+    6  cp -r ../../../ServletAPI/WebServletTest/demo2/src/main/resources/ src/main/
+    7  vi ../../../ServletAPI/WebServletTest/demo2/pom.xml 
+    8  code .
+    9  ./run
+   10  cd ..
+   11  ls
+   12  history >cmd16-11-24evening.txt 

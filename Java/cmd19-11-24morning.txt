@@ -1,0 +1,16 @@
+    1  pwd
+    2  cd Samples/Java/Advanced/Microservices/GRPCTest/demo/
+    3  python Program.py CU102
+    4  cd ..
+    5  mkdir RESTTest
+    6  cd RESTTest/
+    7  unzip -d server ../../maven-projects/jersey-restsvc.zip 
+    8  cd server/
+    9  code .
+   10  vi ../../GRPCTest/contract/src/main/proto/order_manager.proto 
+   11  ./run 
+   12  vi ../../GRPCTest/contract/src/main/proto/order_manager.proto 
+   13  ./run 
+   14  cd ..
+   15  ls
+   16  history >cmd19-11-24morning.txt

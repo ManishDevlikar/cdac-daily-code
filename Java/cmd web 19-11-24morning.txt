@@ -1,0 +1,23 @@
+
+Today - Tuesday, November 19, 2024
+11:09 AM
+DemoApp
+localhost:8000
+11:08 AM
+http://localhost:8000/salesapp/index.js
+localhost:8000
+11:03 AM
+Welcome to nginx!
+localhost:8000
+10:54 AM
+DemoApp
+localhost:5001
+10:53 AM
+http://localhost:5001/index.js
+localhost:5001
+10:38 AM
+http://localhost:5000/api/sales/CU104
+localhost:5000
+10:37 AM
+http://localhost:5000/api/sales/CU102
+localhost:5000
