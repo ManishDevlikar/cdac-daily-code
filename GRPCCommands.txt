@@ -1,0 +1,35 @@
+----------------------------- Server 🧑‍💻 -----------------
+
+  1-> cd server/
+
+  2-> ./run
+
+------ if ever encounter to  ***** ./run: line 6: syntax error: unexpected end of file ******  this line  then use 
+
+-------->  java -cp target/classes/:target/dependency/* app.Program $*
+ this line from your run script
+
+
+---------------------------- Demo ------------------
+
+ 1-> cd demo
+
+2-> python3 --version
+
+--------if required install dependencies using mvn install
+3-> mvn install
+
+
+--------in case your laptop ain't got python
+4 -> sudo apt install python3
+	
+ 
+5->  sudo apt install python3-pip
+6->  pip install grpcio grpcio.tools
+
+-------- copy order_manager.proto in demo
+7->   cp ../contract/src/main/proto/order_manager.proto .
+8->   python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. order_manager.proto -I .
+
+-------- don't forget to change username & password  in  your persistence.xml 🫡
+9-> python3 Program.py CU101

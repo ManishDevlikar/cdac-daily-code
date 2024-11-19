@@ -6,8 +6,8 @@
    <persistence-unit name="app.data" transaction-type="RESOURCE_LOCAL">   
      <properties>   
        <property name="jakarta.persistence.jdbc.url" value="jdbc:oracle:thin:@//iitdac.met.edu/xe"/>
-       <property name="jakarta.persistence.jdbc.user" value="scott"/>
-       <property name="jakarta.persistence.jdbc.password" value="tiger"/>
+       <property name="jakarta.persistence.jdbc.user" value="dac2"/>
+       <property name="jakarta.persistence.jdbc.password" value="dac2"/>
        <property name="eclipselink.logging.level" value="OFF" />   
      </properties>     
      <exclude-unlisted-classes>false</exclude-unlisted-classes>
