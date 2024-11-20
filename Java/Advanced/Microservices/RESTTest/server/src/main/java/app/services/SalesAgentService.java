@@ -21,7 +21,7 @@ public class SalesAgentService {
     @Path("/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response readOrders(@PathParam("id") String customerId) {
-        try(var remote = new OrderManagerClient()){
+        try(var remote = new OrderManagerClient()) {
             var orders = new ArrayList<OrderResource>();
             var request = CustomerInput.newBuilder()
                 .setCustomerCode(customerId)
