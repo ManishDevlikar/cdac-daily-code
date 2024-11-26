@@ -1,4 +1,4 @@
-package com.stack.assignment;
+package com.assignments;
 
 import java.util.Scanner;
 import java.util.Stack;
