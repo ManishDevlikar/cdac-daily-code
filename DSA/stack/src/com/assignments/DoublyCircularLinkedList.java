@@ -54,7 +54,7 @@ public class DoublyCircularLinkedList {
 
 	    void delete_right() {
 	        if (root == null) {
-	            System.out.println("Empty");
+	            System.out.println("Empty ");
 	        } else if (root.right == root) { 
 	            System.out.println(root.data + " deleted");
 	            root = null;
@@ -69,7 +69,7 @@ public class DoublyCircularLinkedList {
 
 	    void print_list() {
 	        if (root == null) {
-	            System.out.println("Empty");
+	            System.out.println("Empty list");
 	        } else {
 	            Node t = root;
 	            do {
