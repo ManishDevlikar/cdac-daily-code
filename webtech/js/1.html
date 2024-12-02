@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // global scope
+        let username="suzy"; // default value undefined
+        var userAge=26;
+
+        {
+            // block scope
+            console.log(username);
+            console.log(userAge);
+            // accessible within block scope only
+            let userRole='admin';
+            var userPlace="mumbai"; 
+        }
+
+        // console.log(userRole);// not accessible outside within block scope 
+        console.log(userPlace);// accessible outside block scope
+
+
+        
+    </script>
+</body>
+</html>

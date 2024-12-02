@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #212121;
+        }
+        h2{
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #212121;
+            text-align: center;
+        }
+        .img{
+            display: block;
+            width: 10rem;
+            margin: auto;
+        }
+        div{
+            border: 1px solid #212121;
+           width: 30%;
+           margin: auto;
+           background-color: #fff;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           padding: 1rem;
+        }
+        h3{
+            text-align: center;
+            border-bottom: 1px solid #212121;
+        }
+        button{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        'use strict';
+        let card = {
+            name: "Nigga",
+            imgURL: 'https://imgs.search.brave.com/-bjHOwA8LSIraG9LlTgKVWCO6XgOIfxSwgYuP26Ya-U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzI4L2Zh/L2ZmLzI4ZmFmZjk2/OWZiYWVjZGQ5MGJk/NTcyZDZkZDU3Njli/LmpwZw',
+            price: 10000,
+            
+        }
+    
+        document.write(`
+        <div>
+            <h2>${card.name}</h2>
+            <img class="img" src=${card.imgURL} alt="slaves" srcset=""/>
+            <h3>$ ${card.price}</h3>
+            <button>be my master</button>
+         </div>
+            
+        `)
+    </script>
+    
+    <img src=""  alt="">
+    
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+<script>
+    'use strict';
+    // x=10;
+    // console.log(x);
+    var amount = 150000;
+    var roi = 7.1;
+    var openingBal = 0;
+
+    for(let i=1;i<=15;i++){
+        let interest = (openingBal + amount) * roi /100; // interest = 10,650
+        interest = Math.round(interest);
+
+        let closingBal = openingBal + amount + interest; // closingBal = 0 + 150000 + 10650
+        console.log(i, openingBal, amount, closingBal, interest);
+        
+        openingBal = closingBal; // openingBal => 0 to 160650
+    }
+</script>

@@ -1,0 +1,58 @@
+<script>
+    'use strict';
+
+    let product = [{
+            price: 1000,
+            product: "Shirt"
+        },
+
+        {
+            price: 1500,
+            product: "Pants"
+        },
+
+        {
+            price: 4000,
+            product: "Calvin Klein"
+        },
+
+        {
+            price: 250,
+            product: "Amul Macho"
+        }
+    ]
+
+    // product.filter((p) => p.price > 1000 ).forEach((p)=>console.log(p));
+
+
+    // set timeout
+        setTimeout(()=>{
+            console.log("-------------timeout-------------");
+            product.filter((p) => p.price > 1000 ).forEach((p)=>console.log(p));
+        },3000)
+
+    // set Interval
+
+      const set= setInterval(()=>{
+            console.log("-------------interval-------------");
+            product.forEach((p)=>console.log(p));
+        },5000)
+
+
+        let slider=1;
+      setInterval(()=>{
+            document.write(`nigga 
+            ${slider++ }
+            <div style="width: 20%;">
+                <img style="width: 100px;" src='https://imgs.search.brave.com/-bjHOwA8LSIraG9LlTgKVWCO6XgOIfxSwgYuP26Ya-U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzI4L2Zh/L2ZmLzI4ZmFmZjk2/OWZiYWVjZGQ5MGJk/NTcyZDZkZDU3Njli/LmpwZw' alt="">
+            </div>
+            `)
+        },1000)
+
+        var stars = ["Brandi Love", "Nicole Aniston", "Elly Clutch", "Mia Malkova"];
+
+        var corn = stars.map(val => 'Fatherles '+val)
+        console.log(corn);
+        
+</script>
+

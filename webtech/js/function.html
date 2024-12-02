@@ -1,0 +1,37 @@
+<script>
+    'use strict';
+    // named functions
+    function myfunk(a,b){
+        return a+b;
+    }
+    console.log(myfunk(10,20));
+
+    // anonymous functions
+     const f1=function(p,r,t){
+        return p*r*t/100;
+    }
+    console.log(typeof f1);
+
+    const f2 = ()=>{
+        return Math.floor(Math.random()*100)+1;
+    }
+    console.log(f2());
+
+    let r1= Math.floor(Math.random()*100)+1;
+    let r2= Math.floor(Math.random()*100)+1;
+
+    const record= `${r1} + ${r2}`;
+
+    console.log(record);
+
+    // const result = prompt(`${record}`);
+
+
+    // arrow functions
+
+    let arrowFunc = b=>b*b;
+
+    console.log(arrowFunc(12));
+
+
+</script>
