@@ -68,7 +68,7 @@ public class Tree_Main {
 				break;
 			case 7:
 				if (obj.root != null) {
-					System.out.println(obj.countLeafNode(obj.root));
+					System.out.println(obj.count_leaf_node(obj.root));
 				}
 				break;
 			case 0:
