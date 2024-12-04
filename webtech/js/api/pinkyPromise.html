@@ -1,0 +1,19 @@
+<script>
+    var rec = new Promise((res,rej)=> {
+        // console.log(typeof rec);
+        // console.log(typeof rej);
+
+        setTimeout(()=> {
+            rej("error");
+            res({msg: `api called`, data:[10,20,30]});
+        },3000)
+    });
+    console.log(rec);
+
+    rec.then(val => {
+        console.log(val);
+    }).catch(err => {
+        console.log(err);
+    });
+
+</script>

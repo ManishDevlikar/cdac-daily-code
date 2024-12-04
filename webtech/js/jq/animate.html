@@ -1,0 +1,17 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<button id="btn">Animate</button>
+<p style="border: solid; width: 100px; height: 100px;">TEST</p>
+
+<script>
+    $('#btn').click(function (){
+        $('p').animate({
+            'width' : '200px',
+            'height' : '200px',
+            'margin-left' : '300px',
+            'font-size' : '40px',
+            'background-color' : 'grey'
+            
+        }, 3000)
+    })
+</script>

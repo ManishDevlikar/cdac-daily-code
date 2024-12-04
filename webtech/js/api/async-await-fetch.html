@@ -1,0 +1,8 @@
+<button onclick="apicall()">Enter</button>
+<script>
+    async function apicall() {
+        var res = await fetch("https://fakestoreapi.com/products")
+        var result = await res.json();
+        console.log(result);
+    }
+</script>

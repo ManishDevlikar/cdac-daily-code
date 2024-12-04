@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<input type="text" id="text1" /> <br>
+<input type="text" id="text2" /> <br>
+<button id="btn" style="margin: 10px;">Button</button>
+<p>...</p>
+
+
+<script>
+   
+//    var data1;
+//    var data2 ;
+    $("#btn").click(function() {
+        // data1 = Number($('#text1').val());
+        // data2 = Number($('#text2').val());
+
+        var response = ((Number($('#text1').val())) == '' || (Number($('#text1').val())) == '') ? "Values Required" : ((Number($('#text1').val()))+(Number($('#text1').val())));
+        $('p').html(response);
+
+    })
+
+
+</script>

@@ -1,0 +1,32 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<div id="test">
+    test karlo bhaaya
+</div>
+<div class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, possimus.</div>
+<h1>hello</h1>
+<h1 id="cdac">CDAC</h1>
+<div id="p1">tset</div>
+
+<button id="btn-1">hide me</button>
+<button id="btn-2">show us</button>
+
+<script>
+    console.log($);
+    console.log(jQuery);
+
+    $('h1').css('background-color', 'red');
+    $('#p1').css({'background-color': 'orangered','font-size':'2rem','margin-bottom':'2rem'});
+    $('.p2').css({'background-color': '#212121','font-size':'2rem','width':'100%','color':'#fff','font-size':'1.3rem'});
+    $('#cdac').css({'background-color': 'pink', 'color': 'red'})
+    $('#test').css({'font-size':'5rem', 'text-align': 'centre', 'background-color':'maroon','text-transform':'capitalize','text-align':'center','font-size':'3rem'})
+
+    $('#btn-1').click(()=>{
+        // $('#p1').css({'display': 'none'});
+        $('#p1').hide();
+    })
+    $('#btn-2').click(()=>{
+        // $('#p1').css({'display': 'none'});
+        $('#p1').show();
+    })
+</script>

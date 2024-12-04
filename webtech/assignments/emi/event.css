@@ -1,0 +1,58 @@
+
+
+body{
+    background-color: #212121;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(#212121,#000,#000);
+}
+#heading{
+    padding: 2rem;
+    text-transform: capitalize;
+}
+#heading::before{
+    content: "EMI Calculator";
+    border-radius: 1px;
+    /* background-image: linear-gradient(#e8c0c0,#e8c0c0,#fff); */
+    color: #c92445;
+}
+.row{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex; 
+    border: 1px solid #c92445;
+    padding: 5rem;
+    background-image: linear-gradient(#ffffff,#ffffff,#e8c0c0);
+    color: #212121;
+    border-radius: 1rem;
+}
+
+.btn{
+    background-color: #c92445;
+    align-self: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    border: none;
+    margin-top: 2rem;
+}
+.btn:hover{
+    background-color: #9a1530;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #c92445;
+    outline: none !important;
+}
+.col-xl-6{
+    color: #c92445;
+}

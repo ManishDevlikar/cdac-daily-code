@@ -1,0 +1,32 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<h1>Api lelo</h1>
+<input type="text" id="text">
+<button id="btn">GET DATA</button>
+
+<div></div>
+
+<script>
+    const API = "https://fakestoreapi.com/products/"
+
+    var id;
+
+    $("#btn").click(function(){
+        id = $('#text').val();
+        console.log(id);
+        var apiPath = API + id;
+        console.log(apiPath);
+
+        $.get(apiPath, function(res){
+            console.log(res);
+            $("div").html(
+                `
+                <img src = "${res.image}"/>
+                <h2>${res.price}</h2>
+                <p>${res.title}</p>
+                `
+            );
+        })
+
+    });
+</script>

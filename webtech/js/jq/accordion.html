@@ -1,0 +1,45 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<html>
+    <head>
+        <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+          
+                
+        </script>
+        <style>
+      
+            .dabba{
+                border: 1px solid black;
+            }
+    
+            h1 {
+                border: 1px solid black;
+                margin: 0;
+            }
+            p {
+                border: 1px solid black;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="dabba">
+            <h1>Heading 1</h1>
+            <p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut nam necessitatibus unde quia. Velit eligendi vitae consectetur eius, quae ducimus vero quod nisi obcaecati, nihil placeat, assumenda sit illo?</p>
+            <h1>Heading 2</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, amet qui? Illum maxime, placeat quas repellat enim nam tempora ratione, doloremque doloribus fuga delectus laborum eligendi incidunt facilis assumenda fugiat!\</p>
+            <h1>Heading 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde quibusdam hic dolorem optio perferendis provident, odit cum expedita distinctio quo deserunt dicta, laudantium quae laborum iste, rem in tempora.</p>
+        </div>
+
+<script>
+    $('p').hide();
+    $('h1').click(function() {
+        $(this).next().slideToggle(500);
+    })
+</script>
+        
+</body>
+</html>
