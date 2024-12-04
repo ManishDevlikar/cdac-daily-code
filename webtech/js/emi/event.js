@@ -14,6 +14,7 @@ document.getElementById('btn').onclick = ()=>{
     var roi = document.getElementById('x2').value;
     var duration = document.getElementById('x3').value;
 
+
     console.log(amount);
     console.log(roi);
     console.log(isNaN(roi)); // true or false
@@ -44,6 +45,9 @@ document.getElementById('btn').onclick = ()=>{
         console.log(document.getElementById('r1'));
         
         document.getElementById('r1').innerHTML = `&#8377; ${emi}`;
+        document.getElementById('r2').innerHTML = `&#8377; ${amount}`;
+        document.getElementById('r3').innerHTML = `&#8377; ${emi*n}`;
+        document.getElementById('r4').innerHTML = `&#8377; ${emi*n-p}`;
         // document.getElementById('r1').innerText = `&#8377; ${emi}`;
         
         
