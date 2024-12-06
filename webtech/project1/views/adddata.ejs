@@ -1,0 +1,17 @@
+<%- include('menu.ejs') %>
+
+<div class="container">
+    <h1>Add a record</h1>
+    <form action="/save" method="post">
+        <input name="name" type="text" placeholder="Name"> <br />
+        <input type="number" name="age" placeholder="Age"> <br />
+        <button>Add</button>
+    </form>
+    
+</div>
+<form action="/email-action" method="post">
+    <input name="email" type="text" placeholder="Email"> <br />
+    <input type="text" name="subject" placeholder="Subject"> <br />
+    <textarea name="msg"></textarea><br />
+    <button>Send Email`</button>
+</form>

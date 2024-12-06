@@ -23,6 +23,9 @@ how to create db (create if not found)
 to check current selected db
 -------- db
 
+
+gkxp judy bdmx fxtk
+
 to create table
 -------- db.createCollection('users');
 -------- db.createCollection('products');
@@ -65,3 +68,5 @@ db.users.update({name:'Darshyaa'},{$set:{name:'darshan',age:23}});
 
 ------------- to install mongoose (db driver)
 npm i mongoose
+
+npm install ejs // install embedded javascript(ejs) library.

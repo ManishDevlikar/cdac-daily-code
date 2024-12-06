@@ -10,35 +10,20 @@ public class SelectionSort {
 		int i, j, min, pos;
 
 		for (i = 0; i < a.length - 1; i++) // n=5 length=5 length-1--> 4 0,1,2,3 passes
-
 		{
-
 			min = a[i];
-
 			pos = i;
-
 			for (j = i + 1; j < a.length; j++)
-
 			{
-
 				if (a[j] < min)
-
 				{
-
 					min = a[j];
-
 					pos = j;
-
 				}
-
 			} // min found
-
 			a[pos] = a[i];
-
 			a[i] = min;
-
 		}
-
 	}
 
 	static void print_array(int a[]) {
