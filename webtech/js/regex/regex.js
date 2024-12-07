@@ -7,7 +7,7 @@ $(document).ready(()=>{
 
         var pinCode = /^[1-9][0-9][0-9][0-9][0-9][0-9]$/; // -> [] indicates 1 character
         var mobileNumber = /^[1-9][0-9]{9}$/;  // {} -> range characters
-        var panCard = /^([a-zA-Z]{5})([0-9]{4})([a-ZA-Z])$/;  // {} -> range characters
+        var panCard = /^([a-zA-Z]{5}) ([0-9]{4}) ([a-zA-Z])$/;  // {} -> range characters
 
        let res1=pinCode.test(data1);
        let res2=mobileNumber.test(data2);
