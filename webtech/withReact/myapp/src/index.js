@@ -13,6 +13,8 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
+import Class1 from './components/Class1';
+import Class2 from './components/Class2';
 
 const ans = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -25,7 +27,10 @@ const router = createBrowserRouter([
             {path: 'Register', element: <Register/>},
             {path: 'Add', element: <Add/>},
             {path: 'Show', element: <Show/>},
+            {path: 'Class1', element: <Class1 name='user1' age='22' place='kalyan'/>},
+            {path: 'Class2', element: <Class2/>},
             {path: '*', element: <PageNotFound/>},
+
         ]
     }
 ])

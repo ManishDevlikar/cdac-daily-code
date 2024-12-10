@@ -25,6 +25,12 @@ function Header() {
         <Link className="nav-link active" aria-current="page" to="Add">Add</Link>
         </li>
         <li className="nav-item">
+        <Link className="nav-link active" aria-current="page" to="Class1">Class1</Link>
+        </li>
+        <li className="nav-item">
+        <Link className="nav-link active" aria-current="page" to="Class2">Class2</Link>
+        </li>
+        <li className="nav-item">
         <Link className="nav-link active" aria-current="page" to="Show">Show</Link>
         </li>
         <li className="nav-item">
