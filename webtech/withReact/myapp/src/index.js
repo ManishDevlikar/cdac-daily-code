@@ -15,6 +15,9 @@ import {
   } from "react-router-dom";
 import Class1 from './components/Class1';
 import Class2 from './components/Class2';
+import Class3 from './components/Class3';
+import Class4 from './components/Class4';
+
 
 const ans = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -29,6 +32,8 @@ const router = createBrowserRouter([
             {path: 'Show', element: <Show/>},
             {path: 'Class1', element: <Class1 name='user1' age='22' place='kalyan'/>},
             {path: 'Class2', element: <Class2/>},
+            {path: 'Class3', element: <Class3/>},
+            {path: 'Class4', element: <Class4/>},
             {path: '*', element: <PageNotFound/>},
 
         ]
