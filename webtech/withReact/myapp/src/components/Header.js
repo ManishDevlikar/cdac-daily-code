@@ -37,6 +37,9 @@ function Header() {
         <Link className="nav-link active" aria-current="page" to="Class4">Class4</Link>
         </li>
         <li className="nav-item">
+        <Link className="nav-link active" aria-current="page" to="c1">Comp1</Link>
+        </li>
+        <li className="nav-item">
         <Link className="nav-link active" aria-current="page" to="Show">Show</Link>
         </li>
         <li className="nav-item">
