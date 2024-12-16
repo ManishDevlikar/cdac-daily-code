@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"	
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+   <bean class="com.beans.Director" id="myDirector">
+   		<property name="fname" value="manish"></property>
+   		<property name="lname" value="devlikar"></property>
+   		<property name="age" value="20"></property>
+   </bean>
+   
+   <bean class="com.beans.Film" id="myFilm">
+   		<property name="title" value="Shawshank Redemption"></property>
+   		<property name="genre" value="Philosophy"></property>
+   		<property name="releaseYear" value="1994"></property>
+   		<property name="directedBy" ref="myDirector"></property>
+   </bean>
+</beans>
