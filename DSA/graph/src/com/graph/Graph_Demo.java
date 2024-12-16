@@ -19,7 +19,6 @@ public class Graph_Demo {
 			{
 				System.out.println("Enter value for v" + i + " to v" + j + " (999 for infinity):");
 				g[i][j] = in.nextInt();
-
 			}
 		}
 	}
@@ -37,7 +36,6 @@ public class Graph_Demo {
 		for (int i = 0; i < v; i++) {
 			visited[i] = 0;// unvisited 0 and 1 means visited
 		}
-
 	}
 
 	public void DFS(int source) {
@@ -79,7 +77,5 @@ public class Graph_Demo {
 		
 		  obj.resetvisited(); System.out.println("DFS"); obj.DFS(0);
 		  obj.resetvisited(); System.out.println("BFS"); obj.BFS(0);
-		 
-
 	}
 }
