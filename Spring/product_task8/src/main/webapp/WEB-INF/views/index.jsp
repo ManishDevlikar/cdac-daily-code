@@ -8,8 +8,7 @@
 			<li><a href="/product_task8/search">search product</a></li>
 		</ul>
 	</nav>
-	
-	<%-- viewProductsPage.jsp --%>
+
 <h1>Product List</h1>
 	 <%
         List<Product > productList = (List<Product>) session.getAttribute("products");
@@ -23,7 +22,7 @@
             <th>Price</th>
         </tr>
 
-        <%-- Iterate over the productList --%>
+
         <%
             for (Product product : productList) {
         %>
