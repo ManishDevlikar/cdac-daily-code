@@ -15,6 +15,7 @@ public class Swaglabs {
 		driver.findElement(By.id("login-button")).click();
 		
 		try {
+			
 			driver.findElement(By.className("bm-burger-button")).click();
 			Thread.sleep(3000);
 			driver.findElement(By.id("logout_sidebar_link")).click();

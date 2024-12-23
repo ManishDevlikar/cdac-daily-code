@@ -15,8 +15,8 @@ public class OpenBrowser {
 //		dr.manage().window().minimize();
 //		 dr1.manage().window().maximize(); // how maximize the web page		 
 		 try {
+			 Thread.sleep(5000);
 			 dr.navigate().back();
-//			 Thread.sleep(5000);
 //			 dr1.close();
 		 }catch (Exception e) {
 			
