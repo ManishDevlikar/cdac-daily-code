@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.testng.Login"/>
+      <parameter name="us" value="student"></parameter>
+      <parameter name="pw" value="Password123"></parameter>
+   <!--     <class name="com.testng.NewTest"/>
+      <class name="com.testng.NewTest1"/>
+      <class name="com.testng.NewTest2"/>
+      <class name="com.testng2.TakeAll"/>
+      <class name="com.testng2.NewTest"/>
+      <class name="com.testng2.NewTest1"/>
+      <class name="com.testng2.NewTest2"/>
+      -->
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
