@@ -1,0 +1,20 @@
+Key Observations
+Both objects are stored in the same bucket because their hashCode() values are the same.
+The equals() method finds that the objects are different because their names are different.
+As a result, both objects are added to the HashSet.
+
+What If equals() Considers Only the ID?
+If the equals() method is implemented to compare only the ID:
+
+
+@Override
+public boolean equals(Object obj) {
+    if (this == obj) return true;
+    if (obj == null || getClass() != obj.getClass()) return false;
+    CustomObject that = (CustomObject) obj;
+    return id == that.id; // Compare only ID
+}
+In this case:
+
+Only the first object (obj1) will be added to the HashSet.
+The second object (obj2) will be considered equal to the first because they have the same ID.
