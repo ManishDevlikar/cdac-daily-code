@@ -17,7 +17,7 @@ enum class Designation {
 };
 
 // Helper function to convert Designation enum to string
-inline string getDesignation(Designation designation) {
+string getDesignation(Designation designation) {
     switch(designation) {
         case Designation::SoftwareDeveloper: return "Software Developer";
         case Designation::DataScientist: return "Data Scientist";

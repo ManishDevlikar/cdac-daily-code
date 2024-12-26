@@ -12,7 +12,7 @@ struct Address{
 
     public :
     Address(string city, string state, string county){
-        this->city = city;
+        this[0].city = city;
         this->state = state;
         this->county = county;
     }
