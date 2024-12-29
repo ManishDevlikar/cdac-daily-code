@@ -57,7 +57,7 @@ void calculate(){
              calculate();
             break;
         case '0':
-        cout<<"Exiting the program\n";   
+        cout<<"Exiting the Application\n";   
             break;
         default:
             cout<<"Error: Invalid operation!\n";
