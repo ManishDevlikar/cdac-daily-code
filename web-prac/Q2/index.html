@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Form Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #212121;
+    }
+    input {
+      padding: 8px;
+      margin-right: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #a72828;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      background-color: #a83a3a;
+    }
+    th {
+      background-color: #ce2424;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: #ce2424;">Employee Form</h1>
+  <div>
+    <input id="employeeId" type="text" placeholder="Employee ID">
+    <input id="employeeName" type="text" placeholder="Employee Name">
+    <input id="employeeDept" type="text" placeholder="Department Number">
+    <button onclick="addEmployee()">Add Employee</button>
+  </div>
+
+  <table id="employeeTable">
+    <thead>
+      <tr>
+        <th>Employee ID</th>
+        <th>Name</th>
+        <th>Department Number</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script>
+    const employees = [];
+
+    function addEmployee() {
+      const id = document.getElementById('employeeId').value;
+      const name = document.getElementById('employeeName').value;
+      const deptNo = document.getElementById('employeeDept').value;
+
+      if (id && name && deptNo) {
+        employees.push({ id, name, deptNo });
+        displayEmployees();
+        clearForm();
+      } else {
+        alert('Please fill out all fields');
+      }
+    }
+
+    function displayEmployees() {
+      const tableBody = document.getElementById('employeeTable').querySelector('tbody');
+      tableBody.innerHTML = '';
+
+      employees.forEach((employee, index) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${employee.id}</td>
+          <td>${employee.name}</td>
+          <td>${employee.deptNo}</td>
+        `;
+        tableBody.appendChild(row);
+      });
+    }
+
+    function clearForm() {
+      document.getElementById('employeeId').value = '';
+      document.getElementById('employeeName').value = '';
+      document.getElementById('employeeDept').value = '';
+    }
+  </script>
+</body>
+</html>
