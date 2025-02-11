@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 const EmployeePage = () => {
   const [employees, setEmployees] = useState([]);
-  const [allemployees, setALLEmployees] = useState([]);
   const [deptNo, setDeptNo] = useState('');
 
   useEffect(() => {
@@ -30,7 +29,7 @@ const EmployeePage = () => {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px'}}>
       <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '16px' }}>Employee List</h1>
 
       <div style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
@@ -43,7 +42,7 @@ const EmployeePage = () => {
         />
         <button
           onClick={handleSearch}
-          style={{ padding: '8px 16px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
+          style={{ padding: '8px 16px', backgroundColor: '#FF5C5C', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
         >
           Search
         </button>
@@ -60,7 +59,13 @@ const EmployeePage = () => {
           </thead>
           <tbody>
             {employees.map((employee) => (
-              <tr key={employee.id} style={{ borderBottom: '1px solid #ddd' }}>
+              <tr
+              key={employee.id}
+              style={{
+                borderBottom: '1px solid #ddd',
+                backgroundColor: (employee.id % 2 === 0) ? '#FF5C5C' : 'transparent',
+              }}
+            >
                 <td style={{ padding: '8px' }}>{employee.id}</td>
                 <td style={{ padding: '8px' }}>{employee.name}</td>
                 <td style={{ padding: '8px' }}>{employee.deptNo}</td>
