@@ -1,0 +1,24 @@
+{
+  "candidateId":101,
+  "name":"manish",
+  "skills":[
+  	{
+  		"skillId":1,
+  		"name":"springboot",
+  		"level":"Advance"
+	},
+	{
+      "skillId":2,
+      "name":"react",
+      "level":"Intermediate"
+    }
+  ],
+"address":{
+  "id":1001,
+  "zipcode":"mh04",
+  "street":"mumbai pune expressway",
+  "city":"thane",
+  "state":"maharastra",
+  "country":"india"
+	}	
+}
